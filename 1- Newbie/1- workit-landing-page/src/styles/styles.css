@@ -1,3 +1,29 @@
+header {
+  background-color: #24053E;
+  padding: 2rem 1rem;
+}
+header nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  text-align: center;
+}
+header nav ul li a {
+  color: #FFFFFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+header nav ul li .header__li-line {
+  background-color: #44FFA1;
+  height: 3px;
+  margin-top: 0.3rem;
+  width: 124px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
