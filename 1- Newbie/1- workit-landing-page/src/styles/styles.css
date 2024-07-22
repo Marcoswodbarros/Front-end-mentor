@@ -51,10 +51,20 @@ header nav ul li .header__li-line {
 }
 
 #intro {
-  background-image: url("../assets/images/intro-bg.png");
+  background-image: url("../assets/images/Intro/bg-mobile.png");
   background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 370px;
   padding-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  #intro {
+    background-image: url("../assets/images/Intro/bg-tablet.png");
+    height: 430px;
+    padding-top: 2rem;
+    position: relative;
+  }
 }
 #intro .intro-container {
   align-items: center;
@@ -74,6 +84,12 @@ header nav ul li .header__li-line {
   line-height: 3rem;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  #intro .intro-container h1 {
+    font-size: 52px;
+    line-height: 3.3rem;
+  }
+}
 #intro .intro-container .intro-line {
   background-color: #44FFA1;
   height: 3px;
@@ -82,6 +98,13 @@ header nav ul li .header__li-line {
   top: 3rem;
   width: 152px;
 }
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-line {
+    left: 8rem;
+    top: 3.1rem;
+    width: 182px;
+  }
+}
 #intro .intro-container span {
   background-color: #44FFA1;
   font-family: Manrope;
@@ -89,10 +112,39 @@ header nav ul li .header__li-line {
   padding: 1rem 1.6rem;
 }
 #intro .intro-container img {
+  bottom: -5.7rem;
   height: 184px;
   position: absolute;
   width: 320px;
-  bottom: -5.7rem;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container img {
+    bottom: -9.2rem;
+    height: 296px;
+    width: 514px;
+  }
+}
+#intro .circles-left {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #intro .circles-left {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+#intro .circles-right {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #intro .circles-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8.5rem;
+  }
 }
 
 * {
