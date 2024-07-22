@@ -50,6 +50,41 @@ header nav ul li .header__li-line {
   }
 }
 
+#intro {
+  background-color: #24053E;
+  padding-top: 1rem;
+}
+#intro .intro-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  row-gap: 2rem;
+  width: 375px;
+}
+#intro .intro-container h1 {
+  color: #FFFFFF;
+  font-family: Fraunces;
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+#intro .intro-container .intro-line {
+  background-color: #44FFA1;
+  height: 3px;
+  position: absolute;
+  top: 3rem;
+  left: 8.65rem;
+  width: 152px;
+}
+#intro .intro-container span {
+  background-color: #44FFA1;
+  font-family: Manrope;
+  font-weight: bold;
+  padding: 1rem 1.6rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

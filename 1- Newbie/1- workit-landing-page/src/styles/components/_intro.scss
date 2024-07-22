@@ -1,0 +1,38 @@
+#intro {
+    background-color: $color-dark-purple;
+    padding-top: 1rem;
+
+    .intro-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+        row-gap: 2rem;
+        width: 375px;
+
+        h1 {
+            color: $color-white;
+            font-family: $font-fraunces;
+            font-size: 42px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .intro-line {
+            background-color: $color-eucaplyptus;
+            height: 3px;
+            position: absolute;
+            top: 3rem;
+            left: 8.65rem;
+            width: 152px;
+        }
+
+        span {
+            background-color: $color-eucaplyptus;
+            font-family: $font-manrope;
+            font-weight: bold;
+            padding: 1rem 1.6rem;
+        }
+    }
+}
