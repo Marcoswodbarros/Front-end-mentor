@@ -2,7 +2,13 @@
     margin-top: 10rem;
 
     @media screen and (min-width: 768px) {
-        margin-top: 13rem;              
+        margin-top: 13rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        margin: 13rem auto 0 auto;
+        width: 1300px;
     }
 
     .reason {
@@ -19,7 +25,13 @@
             grid-template-columns: auto auto;
             grid-template-rows: auto auto;
             row-gap: 1rem;
-            width: 573px;   
+            width: 573px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.5rem;
         }
 
         .reason__span--container {
@@ -34,22 +46,38 @@
 
             @media screen and (min-width: 768px) {
                 grid-column: 1 / 2;
-                grid-row: 1 / 3;      
+                grid-row: 1 / 3;
             }
-            
+
+            @media screen and (min-width: 1440px) {
+                margin-bottom: 1.5rem;
+                height: 56px;
+                width: 56px;
+            }
+
             span {
                 color: $color-dark-purple;
                 font-family: $font-fraunces;
                 font-size: 20px;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 24px;
+                }
             }
+
         }
 
         h2 {
             color: $color-dark-purple;
             font-family: $font-fraunces;
+            font-size: 28px;
 
             @media screen and (min-width: 768px) {
-                grid-column: 2 / 3;      
+                grid-column: 2 / 3;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 32px;      
             }
         }
 
@@ -63,7 +91,13 @@
                 text-align: start;
                 width: 478px;
             }
-        }
 
+            @media screen and (min-width: 1440px) {
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;   
+                width: 391px;   
+            }
+        }
     }
 }
