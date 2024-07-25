@@ -1,6 +1,10 @@
 #reasons {
     margin-top: 10rem;
 
+    @media screen and (min-width: 768px) {
+        margin-top: 13rem;              
+    }
+
     .reason {
         align-items: center;
         display: flex;
@@ -8,6 +12,15 @@
         margin: 0 auto 3rem auto;
         row-gap: 2rem;
         width: 343px;
+
+        @media screen and (min-width: 768px) {
+            column-gap: 2rem;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            row-gap: 1rem;
+            width: 573px;   
+        }
 
         .reason__span--container {
             align-items: center;
@@ -18,6 +31,11 @@
             justify-content: center;
             margin: 0 auto;
             width: 48px;
+
+            @media screen and (min-width: 768px) {
+                grid-column: 1 / 2;
+                grid-row: 1 / 3;      
+            }
             
             span {
                 color: $color-dark-purple;
@@ -29,6 +47,10 @@
         h2 {
             color: $color-dark-purple;
             font-family: $font-fraunces;
+
+            @media screen and (min-width: 768px) {
+                grid-column: 2 / 3;      
+            }
         }
 
         p {
@@ -36,6 +58,11 @@
             font-family: $font-manrope;
             line-height: 28px;
             text-align: center;
+
+            @media screen and (min-width: 768px) {
+                text-align: start;
+                width: 478px;
+            }
         }
 
     }
