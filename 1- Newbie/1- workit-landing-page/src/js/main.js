@@ -11,7 +11,7 @@ const circles = document.querySelector('.test__img--circles');
 
 
 // Function
-function changeCellphonePic() {
+function changePics() {
 
     if (window.innerWidth < 768) {
         cellphone.src = '/src/assets/images/Intro/mobile-cellphone.png';
@@ -47,6 +47,10 @@ function changeCellphonePic() {
     }
 }
 
-changeCellphonePic();
 
-window.addEventListener('resize', changeCellphonePic);
+// Calling function after the page start
+changePics();
+
+
+// Window Event
+window.addEventListener('resize', changePics);
