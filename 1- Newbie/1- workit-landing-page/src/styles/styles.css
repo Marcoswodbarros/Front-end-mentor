@@ -365,8 +365,8 @@ header nav ul li .header__li-line {
 }
 @media screen and (min-width: 1440px) {
   #test .test-container .test__img--person {
-    width: 477px;
     height: 477px;
+    width: 477px;
   }
 }
 #test .test-container .texts-container {
@@ -378,7 +378,7 @@ header nav ul li .header__li-line {
   margin: 0 auto;
   height: 375px;
   justify-content: center;
-  row-gap: 1rem;
+  row-gap: 1.5rem;
   text-align: center;
   width: 343px;
 }
@@ -392,6 +392,7 @@ header nav ul li .header__li-line {
 }
 @media screen and (min-width: 1440px) {
   #test .test-container .texts-container {
+    row-gap: 2rem;
     width: 730px;
   }
 }

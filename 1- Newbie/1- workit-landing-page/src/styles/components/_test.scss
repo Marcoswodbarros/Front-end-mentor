@@ -28,8 +28,8 @@
             }
 
             @media screen and (min-width: 1440px) {
-                width: 477px;
                 height: 477px;
+                width: 477px;
             }
         }
 
@@ -42,7 +42,7 @@
             margin: 0 auto;
             height: 375px;
             justify-content: center;
-            row-gap: 1rem;
+            row-gap: 1.5rem;
             text-align: center;
             width: 343px;
 
@@ -54,6 +54,7 @@
             }
 
             @media screen and (min-width: 1440px) {
+                row-gap: 2rem;
                 width: 730px;
             }
 
