@@ -21,7 +21,7 @@ function changePics() {
         cellphoneRightCircle.src = '';
 
         louis.src = 'assets/images/Test/louis.png';
-        circles.src = '/src/assets/images/Test/tablet-circles.png';
+        circles.src = 'assets/images/Test/tablet-circles.png';
         
     } else if (window.innerWidth >= 768 && window.innerWidth < 1440) {
         cellphone.src = 'assets/images/Intro/tablet-cellphone.png';
