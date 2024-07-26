@@ -338,12 +338,25 @@ header nav ul li .header__li-line {
   padding-top: 14.3rem;
   position: relative;
 }
-#test .test-container img {
+@media screen and (min-width: 768px) {
+  #test .test-container {
+    margin: 0 auto;
+    width: 689px;
+  }
+}
+#test .test-container .test__img--person {
   left: 50%;
-  transform: translate(-50%, 0);
   position: absolute;
   top: 0;
+  transform: translate(-50%, 0);
   z-index: -1;
+}
+@media screen and (min-width: 768px) {
+  #test .test-container .test__img--person {
+    left: 0;
+    top: 4.9rem;
+    transform: translate(0, 0);
+  }
 }
 #test .test-container .texts-container {
   align-items: center;
@@ -358,14 +371,32 @@ header nav ul li .header__li-line {
   text-align: center;
   width: 343px;
 }
+@media screen and (min-width: 768px) {
+  #test .test-container .texts-container {
+    margin: 0 0 0 auto;
+    position: relative;
+    text-align: start;
+    width: 514px;
+  }
+}
 #test .test-container .texts-container h2 {
   font-family: Fraunces;
   font-size: 32px;
+}
+@media screen and (min-width: 768px) {
+  #test .test-container .texts-container h2 {
+    font-size: 48px;
+  }
 }
 #test .test-container .texts-container p {
   font-family: Manrope;
   line-height: 28px;
   width: 281px;
+}
+@media screen and (min-width: 768px) {
+  #test .test-container .texts-container p {
+    width: 402px;
+  }
 }
 #test .test-container .texts-container .text-btn {
   align-items: center;
@@ -375,11 +406,28 @@ header nav ul li .header__li-line {
   justify-content: center;
   width: 172px;
 }
+@media screen and (min-width: 768px) {
+  #test .test-container .texts-container .text-btn {
+    align-self: self-start;
+    margin-left: 3.5rem;
+  }
+}
 #test .test-container .texts-container .text-btn a {
   color: #24053E;
   font-family: Manrope;
   font-weight: bold;
   text-decoration: none;
+}
+#test .test-container .texts-container .test__img--circles {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #test .test-container .texts-container .test__img--circles {
+    bottom: -6.5rem;
+    display: block;
+    right: 0.6rem;
+    position: absolute;
+  }
 }
 
 * {

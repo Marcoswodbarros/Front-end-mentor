@@ -5,12 +5,23 @@
         padding-top: 14.3rem;
         position: relative;
 
-        img {
+        @media screen and (min-width: 768px) {
+            margin: 0 auto;
+            width: 689px;       
+        }
+
+        .test__img--person {
             left: 50%;
-            transform: translate(-50%, 0);
             position: absolute;
             top: 0;
+            transform: translate(-50%, 0);
             z-index: -1;
+
+            @media screen and (min-width: 768px) {
+                left: 0;   
+                top: 4.9rem;
+                transform: translate(0, 0);
+            }
         }
 
         .texts-container {
@@ -26,15 +37,30 @@
             text-align: center;
             width: 343px;
 
+            @media screen and (min-width: 768px) {
+                margin: 0 0 0 auto;
+                position: relative;
+                text-align: start;
+                width: 514px;
+            }
+
             h2 {
                 font-family: $font-fraunces;
                 font-size: 32px;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 48px;
+                }
             }
 
             p {
                 font-family: $font-manrope;
                 line-height: 28px;
                 width: 281px;
+
+                @media screen and (min-width: 768px) {
+                    width: 402px;
+                }
             }
 
 
@@ -46,11 +72,28 @@
                 justify-content: center;
                 width: 172px;
 
+                @media screen and (min-width: 768px) {
+                    align-self: self-start;
+                    margin-left: 3.5rem;
+                }
+
                 a {
                     color: $color-dark-purple;
                     font-family: $font-manrope;
                     font-weight: bold;
                     text-decoration: none;
+                }
+
+            }
+
+            .test__img--circles {
+                display: none;
+
+                @media screen and (min-width: 768px) {
+                    bottom: -6.5rem;
+                    display: block;
+                    right: .6rem;
+                    position: absolute;
                 }
             }
         }
