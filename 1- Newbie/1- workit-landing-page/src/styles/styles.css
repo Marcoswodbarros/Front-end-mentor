@@ -506,6 +506,13 @@ footer .footer-container .footer__medias--container {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
 }
+@media screen and (min-width: 1440px) {
+  footer .footer-container .footer__medias--container a:hover img {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+}
 
 * {
   box-sizing: border-box;
