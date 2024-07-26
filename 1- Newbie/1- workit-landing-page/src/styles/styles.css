@@ -147,24 +147,7 @@ header nav ul li .header__li-line {
   }
 }
 #intro .intro-container img {
-  bottom: -5.7rem;
-  height: 184px;
   position: absolute;
-  width: 320px;
-}
-@media screen and (min-width: 768px) {
-  #intro .intro-container img {
-    bottom: -9.2rem;
-    height: 296px;
-    width: 514px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #intro .intro-container img {
-    bottom: -9.2rem;
-    height: 441px;
-    width: 767px;
-  }
 }
 #intro .circles-left-tablet {
   display: none;
