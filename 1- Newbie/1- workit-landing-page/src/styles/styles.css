@@ -331,6 +331,57 @@ header nav ul li .header__li-line {
   }
 }
 
+#test {
+  margin-top: 10rem;
+}
+#test .test-container {
+  padding-top: 14.3rem;
+  position: relative;
+}
+#test .test-container img {
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+#test .test-container .texts-container {
+  align-items: center;
+  background-color: #24053E;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 375px;
+  justify-content: center;
+  row-gap: 1rem;
+  text-align: center;
+  width: 343px;
+}
+#test .test-container .texts-container h2 {
+  font-family: Fraunces;
+  font-size: 32px;
+}
+#test .test-container .texts-container p {
+  font-family: Manrope;
+  line-height: 28px;
+  width: 281px;
+}
+#test .test-container .texts-container .text-btn {
+  align-items: center;
+  background-color: #44FFA1;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  width: 172px;
+}
+#test .test-container .texts-container .text-btn a {
+  color: #24053E;
+  font-family: Manrope;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

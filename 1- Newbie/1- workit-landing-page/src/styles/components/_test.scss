@@ -1,0 +1,58 @@
+#test {
+    margin-top: 10rem;
+    
+    .test-container {
+        padding-top: 14.3rem;
+        position: relative;
+
+        img {
+            left: 50%;
+            transform: translate(-50%, 0);
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+
+        .texts-container {
+            align-items: center;
+            background-color: $color-dark-purple;
+            color: $color-white;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            height: 375px;
+            justify-content: center;
+            row-gap: 1rem;
+            text-align: center;
+            width: 343px;
+
+            h2 {
+                font-family: $font-fraunces;
+                font-size: 32px;
+            }
+
+            p {
+                font-family: $font-manrope;
+                line-height: 28px;
+                width: 281px;
+            }
+
+
+            .text-btn {
+                align-items: center;
+                background-color: $color-eucaplyptus;
+                display: flex;
+                height: 55px;
+                justify-content: center;
+                width: 172px;
+
+                a {
+                    color: $color-dark-purple;
+                    font-family: $font-manrope;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

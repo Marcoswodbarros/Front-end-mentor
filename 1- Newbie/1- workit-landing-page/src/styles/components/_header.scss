@@ -19,7 +19,7 @@ header {
 
             li {
                 text-align: center;
-                
+
                 a {
                     color: $color-white;
                     font-family: $font-manrope;
@@ -37,7 +37,7 @@ header {
                         }
                     }
                 }
-                
+
                 .header__li-line {
                     background-color: $color-eucaplyptus;
                     height: 3px;
@@ -50,8 +50,6 @@ header {
                     }
                 }
             }
-
         }
-
     }
 }
