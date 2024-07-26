@@ -489,11 +489,16 @@ header nav ul li .header__li-line {
 footer {
   margin: 4rem auto 2rem auto;
 }
+@media screen and (min-width: 768px) {
+  footer {
+    margin: 5rem auto 3rem auto;
+  }
+}
 footer .footer-container {
   align-items: center;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 3.5rem;
 }
 footer .footer-container .footer__medias--container {
   display: flex;

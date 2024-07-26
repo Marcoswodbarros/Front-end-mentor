@@ -1,11 +1,15 @@
 footer {
     margin: 4rem auto 2rem auto;
 
+    @media screen and (min-width: 768px) {
+        margin: 5rem auto 3rem auto;
+    }
+
     .footer-container {
         align-items: center;
         display: flex;
         flex-direction: column;
-        row-gap: 2rem;
+        row-gap: 3.5rem;
 
         .footer__medias--container {
             display: flex;
