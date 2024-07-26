@@ -344,6 +344,11 @@ header nav ul li .header__li-line {
     width: 689px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #test .test-container {
+    width: 1112px;
+  }
+}
 #test .test-container .test__img--person {
   left: 50%;
   position: absolute;
@@ -356,6 +361,12 @@ header nav ul li .header__li-line {
     left: 0;
     top: 4.9rem;
     transform: translate(0, 0);
+  }
+}
+@media screen and (min-width: 1440px) {
+  #test .test-container .test__img--person {
+    width: 477px;
+    height: 477px;
   }
 }
 #test .test-container .texts-container {
@@ -379,6 +390,11 @@ header nav ul li .header__li-line {
     width: 514px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container {
+    width: 730px;
+  }
+}
 #test .test-container .texts-container h2 {
   font-family: Fraunces;
   font-size: 32px;
@@ -386,6 +402,12 @@ header nav ul li .header__li-line {
 @media screen and (min-width: 768px) {
   #test .test-container .texts-container h2 {
     font-size: 48px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container h2 {
+    align-self: self-start;
+    margin-left: 3.5rem;
   }
 }
 #test .test-container .texts-container p {
@@ -396,6 +418,14 @@ header nav ul li .header__li-line {
 @media screen and (min-width: 768px) {
   #test .test-container .texts-container p {
     width: 402px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container p {
+    align-self: self-start;
+    margin-left: 3.5rem;
+    font-size: 18px;
+    width: 602px;
   }
 }
 #test .test-container .texts-container .text-btn {
@@ -412,11 +442,31 @@ header nav ul li .header__li-line {
     margin-left: 3.5rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container .text-btn {
+    width: 190px;
+  }
+  #test .test-container .texts-container .text-btn:hover {
+    background-color: #24053E;
+    border: 1px solid #44FFA1;
+    cursor: pointer;
+    transition: 1s;
+  }
+  #test .test-container .texts-container .text-btn:hover a {
+    color: #44FFA1;
+    transition: 1s;
+  }
+}
 #test .test-container .texts-container .text-btn a {
   color: #24053E;
   font-family: Manrope;
   font-weight: bold;
   text-decoration: none;
+}
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container .text-btn a {
+    font-size: 18px;
+  }
 }
 #test .test-container .texts-container .test__img--circles {
   display: none;
@@ -427,6 +477,11 @@ header nav ul li .header__li-line {
     display: block;
     right: 0.6rem;
     position: absolute;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #test .test-container .texts-container .test__img--circles {
+    right: 4.5rem;
   }
 }
 

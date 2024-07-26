@@ -1,13 +1,17 @@
 #test {
     margin-top: 10rem;
-    
+
     .test-container {
         padding-top: 14.3rem;
         position: relative;
 
         @media screen and (min-width: 768px) {
             margin: 0 auto;
-            width: 689px;       
+            width: 689px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 1112px;
         }
 
         .test__img--person {
@@ -18,9 +22,14 @@
             z-index: -1;
 
             @media screen and (min-width: 768px) {
-                left: 0;   
+                left: 0;
                 top: 4.9rem;
                 transform: translate(0, 0);
+            }
+
+            @media screen and (min-width: 1440px) {
+                width: 477px;
+                height: 477px;
             }
         }
 
@@ -44,12 +53,21 @@
                 width: 514px;
             }
 
+            @media screen and (min-width: 1440px) {
+                width: 730px;
+            }
+
             h2 {
                 font-family: $font-fraunces;
                 font-size: 32px;
 
                 @media screen and (min-width: 768px) {
                     font-size: 48px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    align-self: self-start;
+                    margin-left: 3.5rem;
                 }
             }
 
@@ -60,6 +78,13 @@
 
                 @media screen and (min-width: 768px) {
                     width: 402px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    align-self: self-start;
+                    margin-left: 3.5rem;
+                    font-size: 18px;
+                    width: 602px;
                 }
             }
 
@@ -77,11 +102,31 @@
                     margin-left: 3.5rem;
                 }
 
+                @media screen and (min-width: 1440px) {
+                    width: 190px;
+
+                    &:hover {
+                        background-color: $color-dark-purple;
+                        border: 1px solid $color-eucaplyptus;
+                        cursor: pointer;
+                        transition: 1s;
+
+                        a {
+                            color: $color-eucaplyptus;
+                            transition: 1s;
+                        }
+                    }
+                }
+
                 a {
                     color: $color-dark-purple;
                     font-family: $font-manrope;
                     font-weight: bold;
                     text-decoration: none;
+
+                    @media screen and (min-width: 1440px) {
+                        font-size: 18px;
+                    }
                 }
 
             }
@@ -94,6 +139,10 @@
                     display: block;
                     right: .6rem;
                     position: absolute;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    right: 4.5rem;
                 }
             }
         }
