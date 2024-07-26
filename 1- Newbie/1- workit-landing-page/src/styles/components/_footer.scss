@@ -1,0 +1,16 @@
+footer {
+    margin: 4rem auto 2rem auto;
+
+    .footer-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        .footer__medias--container {
+            display: flex;
+            justify-content: center;
+            column-gap: 1.5rem;
+        }
+    }
+}

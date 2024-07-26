@@ -486,6 +486,22 @@ header nav ul li .header__li-line {
   }
 }
 
+footer {
+  margin: 4rem auto 2rem auto;
+}
+footer .footer-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+footer .footer-container .footer__medias--container {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
