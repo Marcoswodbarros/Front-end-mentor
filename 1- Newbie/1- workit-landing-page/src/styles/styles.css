@@ -160,47 +160,15 @@ header nav ul li .header__li-line {
     top: 0;
   }
 }
-@media screen and (min-width: 1440px) {
-  #intro .circles-left-tablet {
-    display: none;
-  }
-}
 #intro .circles-right-tablet {
   display: none;
 }
 @media screen and (min-width: 768px) {
   #intro .circles-right-tablet {
     display: block;
-    position: absolute;
     right: 0;
+    position: absolute;
     top: 8.5rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #intro .circles-right-tablet {
-    display: none;
-  }
-}
-#intro .circles-left-desktop {
-  display: none;
-}
-@media screen and (min-width: 1440px) {
-  #intro .circles-left-desktop {
-    display: block;
-    left: 0;
-    position: absolute;
-    top: 0;
-  }
-}
-#intro .circles-right-desktop {
-  display: none;
-}
-@media screen and (min-width: 1440px) {
-  #intro .circles-right-desktop {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 10rem;
   }
 }
 
