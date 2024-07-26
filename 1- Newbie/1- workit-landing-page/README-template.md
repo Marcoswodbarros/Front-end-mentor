@@ -6,7 +6,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,7 +26,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page.
 
 
-### Screenshot
+### Screenshots
 
 ![mobile](https://github.com/user-attachments/assets/e6e439c6-752d-42cf-84d3-90cccf7bd9b4)
 
