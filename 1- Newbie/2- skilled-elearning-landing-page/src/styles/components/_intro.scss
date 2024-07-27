@@ -1,0 +1,47 @@
+#intro {
+    margin-top: 2rem;
+
+    .intro-container {
+        margin: 0 auto;
+        width: 343px;
+
+        .intro__text--container {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.5rem;
+
+            h1 {
+                color: $color-dark-blue;
+                font-size: 38px;
+            }
+
+            p {
+                color: $color-gray;
+                line-height: 26px;
+            }
+
+            .intro-btn {
+                align-items: center;
+                background: linear-gradient(#FF6F48, #F02AA6);
+                border-radius: 2rem;
+                display: flex;
+                height: 56px;
+                justify-content: center;
+                width: 167px;
+
+                a {
+                    color: $color-white;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .intro-img {
+            height: 301px;
+            margin-top: 3.5rem;
+            object-fit: cover;
+            width: 327px;
+        }
+    }
+}

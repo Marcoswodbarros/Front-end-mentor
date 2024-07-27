@@ -1,8 +1,10 @@
 @import 'abstract/variables';
 @import 'components/header';
+@import 'components/intro';
 
 * {
     box-sizing: border-box;
+    font-family: $font-jakarta;
     margin: 0;
     padding: 0;
 }

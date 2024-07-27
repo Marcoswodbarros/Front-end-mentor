@@ -1,5 +1,4 @@
 header {
-  font-family: Plus Jakarta Sans, sans-serif;
   padding-top: 1rem;
 }
 header nav {
@@ -46,8 +45,51 @@ header nav .header-btn a {
   text-decoration: none;
 }
 
+#intro {
+  margin-top: 2rem;
+}
+#intro .intro-container {
+  margin: 0 auto;
+  width: 343px;
+}
+#intro .intro-container .intro__text--container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+#intro .intro-container .intro__text--container h1 {
+  color: #13183F;
+  font-size: 38px;
+}
+#intro .intro-container .intro__text--container p {
+  color: #83869A;
+  line-height: 26px;
+}
+#intro .intro-container .intro__text--container .intro-btn {
+  align-items: center;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  border-radius: 2rem;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  width: 167px;
+}
+#intro .intro-container .intro__text--container .intro-btn a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+#intro .intro-container .intro-img {
+  height: 301px;
+  margin-top: 3.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 327px;
+}
+
 * {
   box-sizing: border-box;
+  font-family: Plus Jakarta Sans, sans-serif;
   margin: 0;
   padding: 0;
 }/*# sourceMappingURL=styles.css.map */
