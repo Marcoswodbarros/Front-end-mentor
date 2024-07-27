@@ -48,14 +48,30 @@ header nav .header-btn a {
 #intro {
   margin-top: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #intro {
+    margin-top: 6rem;
+  }
+}
 #intro .intro-container {
   margin: 0 auto;
   width: 343px;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container {
+    position: relative;
+    width: 689px;
+  }
 }
 #intro .intro-container .intro__text--container {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro__text--container {
+    width: 398px;
+  }
 }
 #intro .intro-container .intro__text--container h1 {
   color: #13183F;
@@ -85,6 +101,15 @@ header nav .header-btn a {
   -o-object-fit: cover;
      object-fit: cover;
   width: 327px;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-img {
+    height: auto;
+    position: absolute;
+    right: -39.5px;
+    top: -14rem;
+    width: auto;
+  }
 }
 
 * {

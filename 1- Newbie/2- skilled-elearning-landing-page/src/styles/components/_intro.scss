@@ -1,14 +1,27 @@
 #intro {
     margin-top: 2rem;
 
+    @media screen and (min-width: 768px) {
+        margin-top: 6rem;
+    }
+
     .intro-container {
         margin: 0 auto;
         width: 343px;
+
+        @media screen and (min-width: 768px) {
+            position: relative;
+            width: 689px;
+        }
 
         .intro__text--container {
             display: flex;
             flex-direction: column;
             row-gap: 1.5rem;
+
+            @media screen and (min-width: 768px) {
+                width: 398px;
+            }
 
             h1 {
                 color: $color-dark-blue;
@@ -42,6 +55,14 @@
             margin-top: 3.5rem;
             object-fit: cover;
             width: 327px;
+
+            @media screen and (min-width: 768px) {
+                height: auto;
+                position: absolute;
+                right: -39.5px;
+                top: -14rem;
+                width: auto;
+            }
         }
     }
 }
