@@ -1,0 +1,48 @@
+header {
+    font-family: $font-jakarta;
+    padding-top: 1rem;
+    
+    nav {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 343px;
+
+        @media screen and (min-width: 768px) {
+            width: 689px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 1381px;
+        }
+
+        .header-btn {
+            align-items: center;
+            background-color: $color-dark-blue;
+            border-radius: 2rem;
+            display: flex;
+            height: 48px;
+            justify-content: center;
+            width: 140px;
+
+            @media screen and (min-width: 1440px) {
+                font-size: 18px;
+                height: 56px;
+                width: 167px;
+
+                &:hover {
+                    background-color: $color-dark-blue-gray;
+                    cursor: pointer;
+                    transition: 1s;
+                }
+            }
+            
+            a {
+                color: $color-white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+    }
+}
