@@ -12,6 +12,7 @@ function changePics () {
 
     } else {
         logo.src = '/src/assets/images/header/desktop-logo.png';
+        woman.src = '/src/assets/images/intro/desktop-woman.png';
     }
 }
 

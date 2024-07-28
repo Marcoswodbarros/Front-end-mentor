@@ -5,6 +5,10 @@
         margin-top: 6rem;
     }
 
+    @media screen and (min-width: 1440px) {
+        margin-top: 12rem;
+    }
+
     .intro-container {
         margin: 0 auto;
         width: 343px;
@@ -12,6 +16,10 @@
         @media screen and (min-width: 768px) {
             position: relative;
             width: 689px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 1110px;
         }
 
         .intro__text--container {
@@ -23,14 +31,27 @@
                 width: 398px;
             }
 
+            @media screen and (min-width: 1440px) {
+                width: 457px;
+            }
+
             h1 {
                 color: $color-dark-blue;
                 font-size: 38px;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 55px;
+                }
             }
 
             p {
                 color: $color-gray;
                 line-height: 26px;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 19px;
+                    line-height: 30px;
+                }
             }
 
             .intro-btn {
@@ -42,10 +63,24 @@
                 justify-content: center;
                 width: 167px;
 
+                @media screen and (min-width: 1440px) {
+                    cursor: pointer;
+                    margin-top: 1rem;
+
+                    &:hover {
+                        opacity: .5;
+                        transition: 1s;
+                    }
+                }
+
                 a {
                     color: $color-white;
                     font-weight: bold;
                     text-decoration: none;
+
+                    @media screen and (min-width: 1440px) {
+                        font-size: 18px;
+                    }
                 }
             }
         }
@@ -62,6 +97,12 @@
                 right: -39.5px;
                 top: -14rem;
                 width: auto;
+                z-index: -1;
+            }
+
+            @media screen and (min-width: 1440px) {
+                right: -165px;
+                top: -20rem;
             }
         }
     }

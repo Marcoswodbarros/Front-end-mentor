@@ -15,7 +15,7 @@ header nav {
 }
 @media screen and (min-width: 1440px) {
   header nav {
-    width: 1381px;
+    width: 1110px;
   }
 }
 header nav .header-btn {
@@ -53,6 +53,11 @@ header nav .header-btn a {
     margin-top: 6rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #intro {
+    margin-top: 12rem;
+  }
+}
 #intro .intro-container {
   margin: 0 auto;
   width: 343px;
@@ -61,6 +66,11 @@ header nav .header-btn a {
   #intro .intro-container {
     position: relative;
     width: 689px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container {
+    width: 1110px;
   }
 }
 #intro .intro-container .intro__text--container {
@@ -73,13 +83,29 @@ header nav .header-btn a {
     width: 398px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro__text--container {
+    width: 457px;
+  }
+}
 #intro .intro-container .intro__text--container h1 {
   color: #13183F;
   font-size: 38px;
 }
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro__text--container h1 {
+    font-size: 55px;
+  }
+}
 #intro .intro-container .intro__text--container p {
   color: #83869A;
   line-height: 26px;
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro__text--container p {
+    font-size: 19px;
+    line-height: 30px;
+  }
 }
 #intro .intro-container .intro__text--container .intro-btn {
   align-items: center;
@@ -90,10 +116,25 @@ header nav .header-btn a {
   justify-content: center;
   width: 167px;
 }
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro__text--container .intro-btn {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  #intro .intro-container .intro__text--container .intro-btn:hover {
+    opacity: 0.5;
+    transition: 1s;
+  }
+}
 #intro .intro-container .intro__text--container .intro-btn a {
   color: #FFFFFF;
   font-weight: bold;
   text-decoration: none;
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro__text--container .intro-btn a {
+    font-size: 18px;
+  }
 }
 #intro .intro-container .intro-img {
   height: 301px;
@@ -109,6 +150,13 @@ header nav .header-btn a {
     right: -39.5px;
     top: -14rem;
     width: auto;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro-img {
+    right: -165px;
+    top: -20rem;
   }
 }
 
