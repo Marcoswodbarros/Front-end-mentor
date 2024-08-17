@@ -1,0 +1,47 @@
+#courses {
+
+    .courses-container {
+        margin: 0 auto;
+        width: 343px;
+
+        .courses-title {
+            align-items: center;
+            background: linear-gradient(#FF6F48, #F02AA6);
+            border-radius: 10px;
+            display: flex;
+            height: 120px;
+            justify-content: center;
+            margin-bottom: 1rem;
+
+            h2 {
+                color: $color-white;
+                width: 286px;
+            }
+        }
+
+        .courses {
+            display: flex;
+            flex-direction: column;
+            margin: 4rem auto 0 auto;
+            row-gap: 1.5rem;
+            width: 286px;
+
+            img {
+                height: 56px;
+                width: 56px;
+            }
+
+            p {
+                color: $color-gray;
+                line-height: 1.7rem;
+            }
+
+            a {
+                color: $color-pink;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+    }
+}

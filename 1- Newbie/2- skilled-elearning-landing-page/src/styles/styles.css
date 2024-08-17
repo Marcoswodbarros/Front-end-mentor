@@ -160,6 +160,45 @@ header nav .header-btn a {
   }
 }
 
+#courses .courses-container {
+  margin: 0 auto;
+  width: 343px;
+}
+#courses .courses-container .courses-title {
+  align-items: center;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  border-radius: 10px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#courses .courses-container .courses-title h2 {
+  color: #FFFFFF;
+  width: 286px;
+}
+#courses .courses-container .courses {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto 0 auto;
+  row-gap: 1.5rem;
+  width: 286px;
+}
+#courses .courses-container .courses img {
+  height: 56px;
+  width: 56px;
+}
+#courses .courses-container .courses p {
+  color: #83869A;
+  line-height: 1.7rem;
+}
+#courses .courses-container .courses a {
+  color: #F74780;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   font-family: Plus Jakarta Sans, sans-serif;
