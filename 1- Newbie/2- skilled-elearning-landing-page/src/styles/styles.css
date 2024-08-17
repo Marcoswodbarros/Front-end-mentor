@@ -177,6 +177,12 @@ header nav .header-btn a {
     width: 689px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #courses .courses-container {
+    row-gap: 3rem;
+    width: 1110px;
+  }
+}
 #courses .courses-container .courses-title {
   align-items: center;
   background: linear-gradient(#FF6F48, #F02AA6);
@@ -195,9 +201,20 @@ header nav .header-btn a {
     width: 339px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses-title {
+    height: 322px;
+    width: 350px;
+  }
+}
 #courses .courses-container .courses-title h2 {
   color: #FFFFFF;
   width: 286px;
+}
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses-title h2 {
+    font-size: 31px;
+  }
 }
 #courses .courses-container .courses {
   display: flex;
@@ -215,15 +232,36 @@ header nav .header-btn a {
   height: 56px;
   width: 56px;
 }
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses h3 {
+    font-size: 24px;
+  }
+}
 #courses .courses-container .courses p {
   color: #83869A;
   line-height: 1.7rem;
+}
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses p {
+    font-size: 18px;
+  }
 }
 #courses .courses-container .courses a {
   color: #F74780;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+}
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses a:hover {
+    color: #FFA7C3;
+    transition: 0.7s;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #courses .courses-container .courses .btn-padding {
+    padding-top: 1.7rem;
+  }
 }
 
 footer {
