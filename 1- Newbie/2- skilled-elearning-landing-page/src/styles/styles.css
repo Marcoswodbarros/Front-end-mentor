@@ -281,6 +281,11 @@ footer .footer-container {
     width: 689px;
   }
 }
+@media screen and (min-width: 1440px) {
+  footer .footer-container {
+    width: 1110px;
+  }
+}
 footer .footer-container .footer-btn {
   align-items: center;
   background: linear-gradient(#4851FF, #F02AA6);
@@ -289,6 +294,17 @@ footer .footer-container .footer-btn {
   height: 48px;
   justify-content: center;
   width: 140px;
+}
+@media screen and (min-width: 1440px) {
+  footer .footer-container .footer-btn {
+    height: 56px;
+    width: 167px;
+  }
+  footer .footer-container .footer-btn:hover {
+    background: #FFA7C3;
+    cursor: pointer;
+    transition: 0.7s;
+  }
 }
 footer .footer-container .footer-btn a {
   color: #FFFFFF;

@@ -14,6 +14,10 @@ footer {
             width: 689px;
         }
 
+        @media screen and (min-width: 1440px) {
+            width: 1110px;
+        }
+
         .footer-btn {
             align-items: center;
             background: linear-gradient(#4851FF, #F02AA6);
@@ -22,6 +26,18 @@ footer {
             height: 48px;
             justify-content: center;
             width: 140px;
+
+            @media screen and (min-width: 1440px) {
+                height: 56px;
+                width: 167px;
+
+                &:hover {
+                    background: $color-light-pink;
+                    cursor: pointer;
+                    transition: .7s;
+                }
+            }
+    
 
             a {
                 color: $color-white;
