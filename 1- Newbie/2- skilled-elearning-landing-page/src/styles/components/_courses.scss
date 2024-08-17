@@ -1,8 +1,19 @@
 #courses {
 
+    @media screen and (min-width: 768px) {
+        margin-top: 12rem;
+    }
+
     .courses-container {
         margin: 0 auto;
         width: 343px;
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 2rem;
+            width: 689px;
+        }
 
         .courses-title {
             align-items: center;
@@ -12,6 +23,14 @@
             height: 120px;
             justify-content: center;
             margin-bottom: 1rem;
+
+            @media screen and (min-width: 768px) {
+                align-items: baseline;
+                height: 259px;
+                margin: 2rem 0 0;
+                padding-top: 4rem;
+                width: 339px;
+            }
 
             h2 {
                 color: $color-white;
@@ -25,6 +44,10 @@
             margin: 4rem auto 0 auto;
             row-gap: 1.5rem;
             width: 286px;
+
+            @media screen and (min-width: 768px) {
+                margin: 0 auto;
+            }
 
             img {
                 height: 56px;
