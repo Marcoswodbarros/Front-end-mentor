@@ -1,0 +1,30 @@
+footer {
+    background-color: $color-dark-blue;
+    margin-top: 6rem;
+
+    .footer-container {
+        align-items: center;
+        display: flex;
+        height: 120px;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 343px;
+
+
+        .footer-btn {
+            align-items: center;
+            background: linear-gradient(#4851FF, #F02AA6);
+            border-radius: 30px;
+            display: flex;
+            height: 48px;
+            justify-content: center;
+            width: 140px;
+
+            a {
+                color: $color-white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+    }
+}
