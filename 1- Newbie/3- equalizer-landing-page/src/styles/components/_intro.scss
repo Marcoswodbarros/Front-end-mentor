@@ -1,22 +1,43 @@
 #intro {
     
-    .intro-bg {
-        position: absolute;
-        right: 0;
-        top: 0;
+    .intro-pt1 {
+        margin: 0 auto;
+        padding-bottom: 11rem;
+        width: 335px;
+
+        .intro-bg {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .intro-logo {
+            margin-bottom: 4rem;
+        }
+
+        .intro-text {
+            color: $color-slate;
+
+            h1 {
+                font-size: 40px;
+                line-height: 2.5rem;
+                margin-bottom: 2rem;
+            }
+        }
     }
 
-    .intro-logo {
-        margin-bottom: 4rem;
-    }
+    .intro-pt2 {
+        position: relative;
 
-    .intro-text {
-        color: $color-slate;
+        .intro-bg2 {
+            width: 100%;
+        }
 
-        h1 {
-            font-size: 40px;
-            line-height: 2.5rem;
-            margin-bottom: 2rem;
+        .intro-cellphone {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            top: -7rem;
         }
     }
 }

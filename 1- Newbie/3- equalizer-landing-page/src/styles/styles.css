@@ -1,18 +1,35 @@
-#intro .intro-bg {
+#intro .intro-pt1 {
+  margin: 0 auto;
+  padding-bottom: 11rem;
+  width: 335px;
+}
+#intro .intro-pt1 .intro-bg {
   position: absolute;
   right: 0;
   top: 0;
 }
-#intro .intro-logo {
+#intro .intro-pt1 .intro-logo {
   margin-bottom: 4rem;
 }
-#intro .intro-text {
+#intro .intro-pt1 .intro-text {
   color: #191826;
 }
-#intro .intro-text h1 {
+#intro .intro-pt1 .intro-text h1 {
   font-size: 40px;
   line-height: 2.5rem;
   margin-bottom: 2rem;
+}
+#intro .intro-pt2 {
+  position: relative;
+}
+#intro .intro-pt2 .intro-bg2 {
+  width: 100%;
+}
+#intro .intro-pt2 .intro-cellphone {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -7rem;
 }
 
 * {
@@ -23,6 +40,5 @@
 }
 
 .main-container {
-  margin: 4rem auto 0 auto;
-  width: 335px;
+  margin-top: 4rem;
 }/*# sourceMappingURL=styles.css.map */
