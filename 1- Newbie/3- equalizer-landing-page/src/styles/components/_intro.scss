@@ -1,0 +1,22 @@
+#intro {
+    
+    .intro-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .intro-logo {
+        margin-bottom: 4rem;
+    }
+
+    .intro-text {
+        color: $color-slate;
+
+        h1 {
+            font-size: 40px;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
