@@ -20,14 +20,16 @@
   margin-bottom: 2rem;
 }
 #intro .intro-pt2 {
+  background-color: #191826;
   position: relative;
+  text-align: center;
 }
 #intro .intro-pt2 .intro-bg2 {
-  width: 100%;
+  width: 335px;
 }
 #intro .intro-pt2 .intro-cellphone {
-  position: absolute;
   left: 50%;
+  position: absolute;
   transform: translate(-50%);
   top: -7rem;
 }
@@ -46,11 +48,13 @@
   font-size: 40px;
 }
 #price .price-container p {
+  color: #191826;
   line-height: 1.5rem;
   margin: 1rem 0 2rem 0;
 }
 #price .price-container .price-value {
   align-items: center;
+  color: #191826;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   display: flex;
