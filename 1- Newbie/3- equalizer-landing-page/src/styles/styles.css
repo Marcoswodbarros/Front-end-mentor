@@ -32,6 +32,71 @@
   top: -7rem;
 }
 
+#price {
+  background-color: #FA7453;
+}
+#price .price-container {
+  background-color: #FA7453;
+  margin: 0 auto;
+  padding: 3rem 0 6rem 0;
+  width: 335px;
+}
+#price .price-container h2 {
+  color: #191826;
+  font-size: 40px;
+}
+#price .price-container p {
+  line-height: 1.5rem;
+  margin: 1rem 0 2rem 0;
+}
+#price .price-container .price-value {
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  display: flex;
+}
+#price .price-container .price-value span:first-child {
+  font-size: 60px;
+  font-weight: bold;
+}
+#price .price-container .price-value span:last-child {
+  font-size: 20px;
+}
+#price .price-container .btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  row-gap: 1rem;
+}
+#price .price-container .btn-container .btn {
+  align-items: center;
+  border-radius: 10px;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  width: 335px;
+}
+#price .price-container .btn-container .ios {
+  background-color: #191826;
+}
+#price .price-container .btn-container .ios a {
+  color: #FCFAF9;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#price .price-container .btn-container .android {
+  background-color: #FCFAF9;
+}
+#price .price-container .btn-container .android a {
+  color: #191826;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
