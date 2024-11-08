@@ -25,21 +25,4 @@
             }
         }
     }
-
-    .intro-pt2 {
-        background-color: $color-slate;
-        position: relative;
-        text-align: center;
-
-        .intro-bg2 {
-            width: 335px;
-        }
-
-        .intro-cellphone {
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%);
-            top: -7rem;
-        }
-    }
 }

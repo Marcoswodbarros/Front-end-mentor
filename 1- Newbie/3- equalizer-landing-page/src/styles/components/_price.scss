@@ -4,74 +4,97 @@
     .price-container {
         background-color: $color-orange;
         margin: 0 auto;
-        padding: 3rem 0 6rem 0;
-        width: 335px;
-
-        h2 {
-            color: $color-slate;
-            font-size: 40px;
-        }
-
-        p {
-            color: $color-slate;
-            line-height: 1.5rem;
-            margin: 1rem 0 2rem 0;
-        }
-
-        .price-value {
-            align-items: center;
-            color: $color-slate;
-            column-gap: 1rem;
-            display: flex;
-
-            & span:first-child {
-                font-size: 60px;
-                font-weight: bold;
+        width: 375px;
+        
+        .price-intro {
+            background-color: $color-slate;
+            position: relative;
+            text-align: center;
+    
+            .price-bg {
+                width: 335px;
             }
-
-            & span:last-child {
-                font-size: 20px;
+    
+            .price-cellphone {
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%);
+                top: -7rem;
             }
         }
 
-        .btn-container {
-            display: flex;
-            flex-direction: column;
-            margin-top: 2rem;
-            row-gap: 1rem;
+        .price-premium {
+            margin: 0 auto;
+            padding: 3rem 0 6rem 0;
+            width: 335px;
 
-            .btn {
+            h2 {
+                color: $color-slate;
+                font-size: 40px;
+            }
+    
+            p {
+                color: $color-slate;
+                line-height: 1.5rem;
+                margin: 1rem 0 2rem 0;
+            }
+    
+            .price-value {
                 align-items: center;
-                border-radius: 10px;
+                color: $color-slate;
                 column-gap: 1rem;
                 display: flex;
-                height: 64px;
-                justify-content: center;
-                width: 335px;
-
-            }
-
-            .ios {
-                background-color: $color-slate;
-
-                a {
-                    color: $color-white;
-                    font-size: 18px;
+    
+                & span:first-child {
+                    font-size: 60px;
                     font-weight: bold;
-                    text-decoration: none;
+                }
+    
+                & span:last-child {
+                    font-size: 20px;
                 }
             }
-
-            .android {
-                background-color: $color-white;
-
-                a {
-                    color: $color-slate;
-                    font-size: 18px;
-                    font-weight: bold;
-                    text-decoration: none;
+    
+            .btn-container {
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                row-gap: 1rem;
+    
+                .btn {
+                    align-items: center;
+                    border-radius: 10px;
+                    column-gap: 1rem;
+                    display: flex;
+                    height: 64px;
+                    justify-content: center;
+                    width: 335px;
+    
+                }
+    
+                .ios {
+                    background-color: $color-slate;
+    
+                    a {
+                        color: $color-white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+    
+                .android {
+                    background-color: $color-white;
+    
+                    a {
+                        color: $color-slate;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
                 }
             }
         }
+
     }
 }
