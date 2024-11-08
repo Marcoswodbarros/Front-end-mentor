@@ -108,9 +108,9 @@
 @media screen and (min-width: 768px) {
   #price .price-container .price-intro .price-bg {
     height: 480px;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -123,8 +123,8 @@
 #price .price-container .price-intro .price-cellphone {
   left: 50%;
   position: absolute;
-  transform: translate(-50%);
   top: -7rem;
+  transform: translate(-50%);
 }
 @media screen and (min-width: 768px) {
   #price .price-container .price-intro .price-cellphone {
