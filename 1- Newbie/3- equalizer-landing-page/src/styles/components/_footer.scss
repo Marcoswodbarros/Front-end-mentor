@@ -12,12 +12,31 @@ footer {
             width: 688px;
         }
 
+        @media screen and (min-width: 1440px) {
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+            width: 1120px;
+        }
+
+        img {
+
+            @media screen and (min-width: 1440px) {
+                grid-column: 1 / 2;
+            }
+        }
+
         .footer-text {
             margin: 2rem 0;
 
             @media screen and (min-width: 768px) {
                 grid-column: 1 / 2;
                 grid-row: 2 / 3;
+            }
+
+            @media screen and (min-width: 1440px) {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                margin: 0;
             }
 
             p {
@@ -51,6 +70,11 @@ footer {
                 justify-self: self-end;
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
+            }
+
+            @media screen and (min-width: 1440px) {
+                grid-column: 3 / 4;
+                grid-row: 1 / 2;
             }
         }
     }
