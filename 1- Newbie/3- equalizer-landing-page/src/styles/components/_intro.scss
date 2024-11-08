@@ -9,6 +9,10 @@
             width: 680px;
         }
 
+        @media screen and (min-width: 1440px) {
+            width: 1120px;
+        }
+
         .intro-bg {
             position: absolute;
             right: 0;
@@ -16,6 +20,10 @@
 
             @media screen and (min-width: 768px) {
                 top: -2rem;
+            }
+
+            @media screen and (min-width: 1440px) {
+                right: 2rem;
             }
         }
 
@@ -28,6 +36,11 @@
 
             @media screen and (min-width: 768px) {
                 display: block;
+            }
+
+            @media screen and (min-width: 1440px) {
+                display: block;
+                height: 380px;
             }
         }
 
@@ -52,6 +65,12 @@
                     line-height: 4rem;
                     width: 415px;
                 }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 88px;
+                    line-height: 5.5rem;
+                    width: 855px;
+                }
             }
 
             p {
@@ -59,6 +78,12 @@
                 @media screen and (min-width: 768px) {
                     font-size: 18px;
                     width: 505px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 20px;
+                    line-height: 1.7rem;
+                    width: 738px;
                 }
             }
         }

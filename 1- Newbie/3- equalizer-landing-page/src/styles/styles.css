@@ -8,6 +8,11 @@
     width: 680px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #intro .intro-container {
+    width: 1120px;
+  }
+}
 #intro .intro-container .intro-bg {
   position: absolute;
   right: 0;
@@ -16,6 +21,11 @@
 @media screen and (min-width: 768px) {
   #intro .intro-container .intro-bg {
     top: -2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro-bg {
+    right: 2rem;
   }
 }
 #intro .intro-container .intro-bg2 {
@@ -28,6 +38,12 @@
 @media screen and (min-width: 768px) {
   #intro .intro-container .intro-bg2 {
     display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro-bg2 {
+    display: block;
+    height: 380px;
   }
 }
 #intro .intro-container .intro-logo {
@@ -53,10 +69,24 @@
     width: 415px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro-text h1 {
+    font-size: 88px;
+    line-height: 5.5rem;
+    width: 855px;
+  }
+}
 @media screen and (min-width: 768px) {
   #intro .intro-container .intro-text p {
     font-size: 18px;
     width: 505px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #intro .intro-container .intro-text p {
+    font-size: 20px;
+    line-height: 1.7rem;
+    width: 738px;
   }
 }
 
@@ -231,7 +261,7 @@
 }
 @media screen and (min-width: 768px) {
   #price .price-container .price-premium .btn-container .btn {
-    width: 260px;
+    width: 276px;
   }
 }
 @media screen and (min-width: 1440px) {
