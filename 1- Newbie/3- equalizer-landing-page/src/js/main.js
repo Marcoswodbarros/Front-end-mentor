@@ -12,13 +12,13 @@ function resizePics() {
         priceCellphone.src = 'assets/images/2_Price/cellphone-mobile.png';
 
     } else if (window.innerWidth >= 768 && window.innerWidth < 1440) {
-        introBg.src = 'assets/images/1_Intro/bg3-tablet.png';
+        introBg.src = 'assets/images/1_Intro/bg-tablet.png';
 
         priceBg.src = 'assets/images/2_Price/bg-tablet.svg';
         priceCellphone.src = 'assets/images/2_Price/cellphone-tablet.png';
 
     } else {
-        priceBg.src = 'assets/images/2_Price/bg-desktop.png';
+        priceBg.src = 'assets/images/2_Price/bg2-desktop.png';
         priceCellphone.src = 'assets/images/2_Price/cellphone-desktop.png';
     }
 }

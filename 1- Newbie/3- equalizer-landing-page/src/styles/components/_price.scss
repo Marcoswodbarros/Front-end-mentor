@@ -16,6 +16,10 @@
             position: relative;
             width: 680px;
         }
+
+        @media screen and (min-width: 1440px) {
+            width: 1120px;
+        }
         
         .price-intro {
             background-color: $color-slate;
@@ -25,6 +29,10 @@
             @media screen and (min-width: 768px) {
                 border-radius: 12px;
                 height: 570px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                height: 600px;
             }
     
             .price-bg {
@@ -36,6 +44,12 @@
                     top: 0;
                     left: 0;
                 }
+
+                @media screen and (min-width: 1440px) {
+                    height: 468px;
+                    left: 35%;
+                    width: 312px;
+                }
             }
     
             .price-cellphone {
@@ -46,6 +60,11 @@
 
                 @media screen and (min-width: 768px) {
                     left: 26%;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    height: 642px;
+                    left: 25%;
                 }
             }
         }
@@ -65,12 +84,21 @@
                 width: 356px;
             }
 
+            @media screen and (min-width: 1440px) {
+                left: 50%;
+                width: 512px;
+            }
+
             h2 {
                 color: $color-slate;
                 font-size: 40px;
 
                 @media screen and (min-width: 768px) {
                     font-size: 42px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 46px;
                 }
             }
     
@@ -81,6 +109,11 @@
 
                 @media screen and (min-width: 768px) {
                     font-size: 18px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 22px;
+                    line-height: 2rem;
                 }
             }
     
@@ -125,6 +158,10 @@
     
                     @media screen and (min-width: 768px) {
                         width: 260px;
+                    }
+
+                    @media screen and (min-width: 1440px) {
+                        width: 432px;
                     }
                 }
     

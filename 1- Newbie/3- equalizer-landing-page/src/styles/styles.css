@@ -81,6 +81,11 @@
     width: 680px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #price .price-container {
+    width: 1120px;
+  }
+}
 #price .price-container .price-intro {
   background-color: #191826;
   position: relative;
@@ -90,6 +95,11 @@
   #price .price-container .price-intro {
     border-radius: 12px;
     height: 570px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-intro {
+    height: 600px;
   }
 }
 #price .price-container .price-intro .price-bg {
@@ -103,6 +113,13 @@
     left: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-intro .price-bg {
+    height: 468px;
+    left: 35%;
+    width: 312px;
+  }
+}
 #price .price-container .price-intro .price-cellphone {
   left: 50%;
   position: absolute;
@@ -112,6 +129,12 @@
 @media screen and (min-width: 768px) {
   #price .price-container .price-intro .price-cellphone {
     left: 26%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-intro .price-cellphone {
+    height: 642px;
+    left: 25%;
   }
 }
 #price .price-container .price-premium {
@@ -130,6 +153,12 @@
     width: 356px;
   }
 }
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-premium {
+    left: 50%;
+    width: 512px;
+  }
+}
 #price .price-container .price-premium h2 {
   color: #191826;
   font-size: 40px;
@@ -137,6 +166,11 @@
 @media screen and (min-width: 768px) {
   #price .price-container .price-premium h2 {
     font-size: 42px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-premium h2 {
+    font-size: 46px;
   }
 }
 #price .price-container .price-premium p {
@@ -147,6 +181,12 @@
 @media screen and (min-width: 768px) {
   #price .price-container .price-premium p {
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-premium p {
+    font-size: 22px;
+    line-height: 2rem;
   }
 }
 #price .price-container .price-premium .price-value {
@@ -192,6 +232,11 @@
 @media screen and (min-width: 768px) {
   #price .price-container .price-premium .btn-container .btn {
     width: 260px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #price .price-container .price-premium .btn-container .btn {
+    width: 432px;
   }
 }
 #price .price-container .price-premium .btn-container .ios {
