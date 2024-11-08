@@ -1,0 +1,34 @@
+footer {
+    padding: 4rem 0;
+
+    .footer-container {
+        margin: 0 auto;
+        width: 335px;
+
+        .footer-text {
+            margin: 2rem 0;
+
+            p {
+                font-style: normal;
+            }
+            
+            address {
+                font-style: normal;
+                line-height: 1.5rem;
+                margin-top: .2rem;
+
+                a {
+                    color: $color-slate;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            width: 124px;
+        }
+    }
+}

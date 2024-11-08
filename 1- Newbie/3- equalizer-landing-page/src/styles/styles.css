@@ -101,6 +101,35 @@
   text-decoration: none;
 }
 
+footer {
+  padding: 4rem 0;
+}
+footer .footer-container {
+  margin: 0 auto;
+  width: 335px;
+}
+footer .footer-container .footer-text {
+  margin: 2rem 0;
+}
+footer .footer-container .footer-text p {
+  font-style: normal;
+}
+footer .footer-container .footer-text address {
+  font-style: normal;
+  line-height: 1.5rem;
+  margin-top: 0.2rem;
+}
+footer .footer-container .footer-text address a {
+  color: #191826;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer .footer-container .footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 124px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
