@@ -1,18 +1,24 @@
+let introBg = document.querySelector('.intro-bg');
+
 let priceBg = document.querySelector('.price-bg');
 let priceCellphone = document.querySelector('.price-cellphone');
 
-function resizePics () {
-    
+function resizePics() {
+
     if (window.innerWidth < 768) {
-        priceCellphone.src = 'assets/images/2_Price/bg-mobile.png';
+        introBg.src = 'assets/images/1_Intro/bg-mobile.png';
+
+        priceBg.src = 'assets/images/2_Price/bg-mobile.png';
         priceCellphone.src = 'assets/images/2_Price/cellphone-mobile.png';
-        
-    } else if (window.innerWidth >= 768 && window.innerWidth < 1440){
+
+    } else if (window.innerWidth >= 768 && window.innerWidth < 1440) {
+        introBg.src = 'assets/images/1_Intro/bg3-tablet.png';
+
         priceBg.src = 'assets/images/2_Price/bg-tablet.svg';
         priceCellphone.src = 'assets/images/2_Price/cellphone-tablet.png';
-        
+
     } else {
-        priceCellphone.src = 'assets/images/2_Price/bg-desktop.png';
+        priceBg.src = 'assets/images/2_Price/bg-desktop.png';
         priceCellphone.src = 'assets/images/2_Price/cellphone-desktop.png';
     }
 }

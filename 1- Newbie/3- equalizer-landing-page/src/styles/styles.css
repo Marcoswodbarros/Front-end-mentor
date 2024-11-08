@@ -1,23 +1,63 @@
-#intro .intro-pt1 {
+#intro .intro-container {
   margin: 0 auto;
   padding-bottom: 11rem;
   width: 335px;
 }
-#intro .intro-pt1 .intro-bg {
+@media screen and (min-width: 768px) {
+  #intro .intro-container {
+    width: 680px;
+  }
+}
+#intro .intro-container .intro-bg {
   position: absolute;
   right: 0;
   top: 0;
 }
-#intro .intro-pt1 .intro-logo {
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-bg {
+    top: -2rem;
+  }
+}
+#intro .intro-container .intro-bg2 {
+  display: none;
+  height: 330px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-bg2 {
+    display: block;
+  }
+}
+#intro .intro-container .intro-logo {
   margin-bottom: 4rem;
 }
-#intro .intro-pt1 .intro-text {
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-logo {
+    margin-bottom: 6rem;
+  }
+}
+#intro .intro-container .intro-text {
   color: #191826;
 }
-#intro .intro-pt1 .intro-text h1 {
+#intro .intro-container .intro-text h1 {
   font-size: 40px;
   line-height: 2.5rem;
   margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-text h1 {
+    font-size: 62px;
+    line-height: 4rem;
+    width: 415px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #intro .intro-container .intro-text p {
+    font-size: 18px;
+    width: 505px;
+  }
 }
 
 #price {

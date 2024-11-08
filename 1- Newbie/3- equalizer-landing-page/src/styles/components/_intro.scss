@@ -1,18 +1,42 @@
 #intro {
 
-    .intro-pt1 {
+    .intro-container {
         margin: 0 auto;
         padding-bottom: 11rem;
         width: 335px;
+
+        @media screen and (min-width: 768px) {
+            width: 680px;
+        }
 
         .intro-bg {
             position: absolute;
             right: 0;
             top: 0;
+
+            @media screen and (min-width: 768px) {
+                top: -2rem;
+            }
+        }
+
+        .intro-bg2 {
+            display: none;
+            height: 330px;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            @media screen and (min-width: 768px) {
+                display: block;
+            }
         }
 
         .intro-logo {
             margin-bottom: 4rem;
+
+            @media screen and (min-width: 768px) {
+                margin-bottom: 6rem;
+            }
         }
 
         .intro-text {
@@ -22,6 +46,20 @@
                 font-size: 40px;
                 line-height: 2.5rem;
                 margin-bottom: 2rem;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 62px;
+                    line-height: 4rem;
+                    width: 415px;
+                }
+            }
+
+            p {
+
+                @media screen and (min-width: 768px) {
+                    font-size: 18px;
+                    width: 505px;
+                }
             }
         }
     }
