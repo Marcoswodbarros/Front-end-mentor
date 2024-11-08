@@ -23,18 +23,45 @@
 #price {
   background-color: #FA7453;
 }
+@media screen and (min-width: 768px) {
+  #price {
+    background-color: transparent;
+    margin: 5rem 0 12rem 0;
+  }
+}
 #price .price-container {
   background-color: #FA7453;
   margin: 0 auto;
   width: 375px;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container {
+    background-color: transparent;
+    position: relative;
+    width: 680px;
+  }
 }
 #price .price-container .price-intro {
   background-color: #191826;
   position: relative;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  #price .price-container .price-intro {
+    border-radius: 12px;
+    height: 570px;
+  }
+}
 #price .price-container .price-intro .price-bg {
   width: 335px;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container .price-intro .price-bg {
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 #price .price-container .price-intro .price-cellphone {
   left: 50%;
@@ -42,19 +69,45 @@
   transform: translate(-50%);
   top: -7rem;
 }
+@media screen and (min-width: 768px) {
+  #price .price-container .price-intro .price-cellphone {
+    left: 26%;
+  }
+}
 #price .price-container .price-premium {
   margin: 0 auto;
   padding: 3rem 0 6rem 0;
   width: 335px;
 }
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium {
+    background-color: #FA7453;
+    border-radius: 12px;
+    left: 38%;
+    padding: 3rem 2.5rem;
+    position: absolute;
+    top: 15%;
+    width: 356px;
+  }
+}
 #price .price-container .price-premium h2 {
   color: #191826;
   font-size: 40px;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium h2 {
+    font-size: 42px;
+  }
 }
 #price .price-container .price-premium p {
   color: #191826;
   line-height: 1.5rem;
   margin: 1rem 0 2rem 0;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium p {
+    font-size: 18px;
+  }
 }
 #price .price-container .price-premium .price-value {
   align-items: center;
@@ -67,8 +120,18 @@
   font-size: 60px;
   font-weight: bold;
 }
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium .price-value span:first-child {
+    font-size: 62px;
+  }
+}
 #price .price-container .price-premium .price-value span:last-child {
   font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium .price-value span:last-child {
+    font-size: 20px;
+  }
 }
 #price .price-container .price-premium .btn-container {
   display: flex;
@@ -85,6 +148,11 @@
   height: 64px;
   justify-content: center;
   width: 335px;
+}
+@media screen and (min-width: 768px) {
+  #price .price-container .price-premium .btn-container .btn {
+    width: 260px;
+  }
 }
 #price .price-container .price-premium .btn-container .ios {
   background-color: #191826;

@@ -1,18 +1,41 @@
 #price {
     background-color: $color-orange;
 
+    @media screen and (min-width: 768px) {
+        background-color: transparent;
+        margin: 5rem 0 12rem 0;
+    }
+
     .price-container {
         background-color: $color-orange;
         margin: 0 auto;
         width: 375px;
         
+        @media screen and (min-width: 768px) {
+            background-color: transparent;
+            position: relative;
+            width: 680px;
+        }
+        
         .price-intro {
             background-color: $color-slate;
             position: relative;
             text-align: center;
+
+            @media screen and (min-width: 768px) {
+                border-radius: 12px;
+                height: 570px;
+            }
     
             .price-bg {
                 width: 335px;
+
+                @media screen and (min-width: 768px) {
+                    height: 480px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
             }
     
             .price-cellphone {
@@ -20,6 +43,10 @@
                 position: absolute;
                 transform: translate(-50%);
                 top: -7rem;
+
+                @media screen and (min-width: 768px) {
+                    left: 26%;
+                }
             }
         }
 
@@ -28,15 +55,33 @@
             padding: 3rem 0 6rem 0;
             width: 335px;
 
+            @media screen and (min-width: 768px) {
+                background-color: $color-orange;
+                border-radius: 12px;
+                left: 38%;
+                padding: 3rem 2.5rem;
+                position: absolute;
+                top: 15%;
+                width: 356px;
+            }
+
             h2 {
                 color: $color-slate;
                 font-size: 40px;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 42px;
+                }
             }
     
             p {
                 color: $color-slate;
                 line-height: 1.5rem;
                 margin: 1rem 0 2rem 0;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 18px;
+                }
             }
     
             .price-value {
@@ -48,10 +93,18 @@
                 & span:first-child {
                     font-size: 60px;
                     font-weight: bold;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 62px;
+                    }
                 }
     
                 & span:last-child {
                     font-size: 20px;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 20px;
+                    }
                 }
             }
     
@@ -70,6 +123,9 @@
                     justify-content: center;
                     width: 335px;
     
+                    @media screen and (min-width: 768px) {
+                        width: 260px;
+                    }
                 }
     
                 .ios {
