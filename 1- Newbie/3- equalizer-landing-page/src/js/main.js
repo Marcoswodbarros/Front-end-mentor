@@ -24,7 +24,7 @@ function resizePics() {
         // Utiliza o mesmo introBg do tablet
         introBg2.src = 'assets/images/1_Intro/bg2-desktop.png';
 
-        priceBg.src = 'assets/images/2_Price/bg2-desktop.png';
+        priceBg.src = 'assets/images/2_Price/bg-desktop.png';
         priceCellphone.src = 'assets/images/2_Price/cellphone-desktop.png';
     }
 }
