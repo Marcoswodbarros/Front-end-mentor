@@ -1,0 +1,9 @@
+@mixin introBtn ($color, $width) {
+    background-color: $color;
+    border: none;
+    border-radius: 29px;
+    color: $color-white;
+    font-weight: bold;
+    padding: 16px 40px;
+    width: $width;
+}

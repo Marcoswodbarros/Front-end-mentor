@@ -1,0 +1,20 @@
+@import 'abstracts/variables';
+@import 'abstracts/utilities';
+@import 'components/intro';
+@import 'components/complement';
+
+* {
+    box-sizing: border-box;
+    font-family: $font-red-hat;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 3rem;
+
+    .meet-logo {
+        display: block;
+        margin: 0 auto;
+    }
+}

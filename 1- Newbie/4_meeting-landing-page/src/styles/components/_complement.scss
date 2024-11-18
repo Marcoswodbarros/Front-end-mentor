@@ -1,0 +1,235 @@
+.complement {
+
+    .complement-one {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 11rem auto;
+        row-gap: 4rem;
+        width: 311px;
+
+        @media screen and (min-width: 768px) {
+            width: 680px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 1120px;
+        }
+
+        .numbers {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .number-one {
+                background-color: $color-slate-300;
+                height: 80px;
+                width: 1px;
+            }
+
+            .number-span {
+                align-items: center;
+                border: 1px solid $color-slate-300;
+                border-radius: 50%;
+                display: flex;
+                height: 56px;
+                justify-content: center;
+                width: 56px;
+
+                span {
+                    color: $color-slate-600;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .pics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            @media screen and (min-width: 768px) {
+                flex-wrap: nowrap;
+                justify-content: space-between;
+            }
+
+            img {
+                height: 144px;
+                width: 147px;
+
+                @media screen and (min-width: 768px) {
+                    height: 160px;
+                    width: 152px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    height: 256px;
+                    width: 256px;
+                }
+            }
+        }
+
+        .texts {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            @media screen and (min-width: 768px) {
+                margin: 0 auto;
+                width: 504px;
+            }
+
+            & p:first-child {
+                color: $color-cyan-600;
+                font-size: 12px;
+                font-weight: bold;
+                letter-spacing: .3rem;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                color: $color-slate-900;
+                font-size: 35px;
+                line-height: 2.5rem;
+                margin: 1rem 0 2rem 0;
+                text-align: center;
+
+                @media screen and (min-width: 768px) {
+                    margin: 1rem auto 2rem auto;
+                    width: 450px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    width: 385px;
+                }
+            }
+
+            & p:last-child {
+                color: $color-slate-600;
+                font-weight: 400;
+                line-height: 1.5rem;
+                text-align: center;
+                
+                @media screen and (min-width: 1440px) {
+                    width: 455px;
+                }
+            }
+        }
+    }
+
+    .complement-two {
+        align-items: center;
+        background-image: url('/assets/images/1_mobile/img-footer.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0;
+        position: relative;
+        row-gap: 2rem;
+        width: 100%;
+
+        @media screen and (min-width: 1440px) {
+            align-items: center;
+            flex-direction: row;
+            height: 312px;
+            justify-content: space-evenly;
+        }
+
+        .complement-two-bg {
+            background-color: $color-cyan-600;
+            height: 394px;
+            opacity: .9;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @media screen and (min-width: 768px) {
+                height: 330px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                height: 312px;
+            }
+        }
+
+        .numbers {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: -6.7rem;
+
+            .number-one {
+                background-color: $color-slate-300;
+                height: 80px;
+                width: 1px;
+            }
+
+            .number-span {
+                align-items: center;
+                background-color: $color-white;
+                border: 1px solid $color-slate-300;
+                border-radius: 50%;
+                display: flex;
+                height: 56px;
+                justify-content: center;
+                width: 56px;
+
+                span {
+                    color: $color-slate-600;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        h2 {
+            color: $color-white;
+            font-size: 35px;
+            line-height: 2.5rem;
+            text-align: center;
+            width: 311px;
+            z-index: 1;
+
+            @media screen and (min-width: 768px) {
+                width: 504px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                text-align: start;
+                width: 340px;
+            }
+        }
+
+        p {
+            color: $color-white;
+            font-weight: 400;
+            line-height: 1.5rem;
+            text-align: center;
+            width: 304px;
+            z-index: 1;
+
+            @media screen and (min-width: 768px) {
+                width: 504px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                text-align: start;
+                width: 320px;
+            }
+        }
+
+        button {
+            @include introBtn($color-purple-600, 193px);
+            z-index: 1;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            span {
+                color: $color-purple-300;
+                z-index: 1;
+            }
+        }
+    }
+}
