@@ -1,0 +1,102 @@
+main {
+
+    .main-bg {
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -2;
+    }
+
+    .bg-effect {
+        background-color: $color-blue-950;
+        opacity: .9;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        row-gap: 1rem;
+        text-align: center;
+        width: 303px;
+
+        .main-logo {
+            margin: 9.5rem auto 2rem auto;
+        }
+
+        h1 {
+            color: $color-green;
+            font-weight: 100;
+            text-transform: uppercase;
+
+            span {
+                color: $color-white;
+            }
+        }
+
+        p {
+            color: $color-blue-300;
+            font-size: 14px;
+            font-weight: 100;
+            line-height: 1.3rem;
+        }
+
+        .main-icons {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+            width: 100%;
+
+            & img:nth-child(1) {
+                width: 55px;
+            }
+            & img:nth-child(2) {
+                width: 45px;
+            }
+            & img:nth-child(3) {
+                width: 72px;
+            }
+            & img:nth-child(4) {
+                width: 75px;
+            }
+        }
+
+        .main-inputs {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+            #main-email {
+                background-color: $color-blue-900;
+                border: none;
+                border-radius: 25px;
+                height: 44px;
+                width: 303px;
+
+                &::placeholder {
+                    padding-left: 2rem;
+                    font-weight: 600;
+                }
+            }
+
+            #main-submit {
+                background-color: $color-green;
+                border: none;
+                border-radius: 25px;
+                font-weight: 600;
+                height: 44px;
+                width: 303px;
+            }
+        }
+    }
+}

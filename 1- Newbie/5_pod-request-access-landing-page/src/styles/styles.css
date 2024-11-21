@@ -1,3 +1,96 @@
+main .main-bg {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+main .bg-effect {
+  background-color: #121725;
+  opacity: 0.9;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+main .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  row-gap: 1rem;
+  text-align: center;
+  width: 303px;
+}
+main .container .main-logo {
+  margin: 9.5rem auto 2rem auto;
+}
+main .container h1 {
+  color: #54E6AF;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+main .container h1 span {
+  color: #FFFFFF;
+}
+main .container p {
+  color: #C2CBE5;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.3rem;
+}
+main .container .main-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  width: 100%;
+}
+main .container .main-icons img:nth-child(1) {
+  width: 55px;
+}
+main .container .main-icons img:nth-child(2) {
+  width: 45px;
+}
+main .container .main-icons img:nth-child(3) {
+  width: 72px;
+}
+main .container .main-icons img:nth-child(4) {
+  width: 75px;
+}
+main .container .main-inputs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+main .container .main-inputs #main-email {
+  background-color: #2C344B;
+  border: none;
+  border-radius: 25px;
+  height: 44px;
+  width: 303px;
+}
+main .container .main-inputs #main-email::-moz-placeholder {
+  padding-left: 2rem;
+  font-weight: 600;
+}
+main .container .main-inputs #main-email::placeholder {
+  padding-left: 2rem;
+  font-weight: 600;
+}
+main .container .main-inputs #main-submit {
+  background-color: #54E6AF;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  height: 44px;
+  width: 303px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Chivo", sans-serif;
