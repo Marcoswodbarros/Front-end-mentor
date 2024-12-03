@@ -226,6 +226,11 @@ main .container .main-inputs #main-submit {
 main .container .main-inputs .spanAlert {
   color: #FB3E3E;
 }
+@media screen and (min-width: 1440px) {
+  main .container .main-inputs .spanAlert {
+    margin-right: 9.4rem;
+  }
+}
 main .container .green-dots {
   display: none;
 }

@@ -216,6 +216,10 @@ main {
 
             .spanAlert {
                 color: $color-red;
+
+                @media screen and (min-width: 1440px) {
+                    margin-right: 9.4rem;
+                }
             }
         }
 
