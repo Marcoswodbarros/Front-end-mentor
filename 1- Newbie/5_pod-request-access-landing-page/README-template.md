@@ -31,7 +31,7 @@ Users should be able to:
 
 ![tablet](https://github.com/user-attachments/assets/753e548c-3a60-4b72-9db4-ffbe6d1de530)
 
-![desktop](https://github.com/user-attachments/assets/c63d4938-3ea3-4f90-b67c-1d6d8a6b0918)
+![desktop](https://github.com/user-attachments/assets/52acf902-7a56-4ce6-9061-c0c4fa42b2ad)
 
 ### Links
 
