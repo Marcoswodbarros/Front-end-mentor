@@ -90,7 +90,7 @@ main .container .main-logo {
 }
 @media screen and (min-width: 1440px) {
   main .container .main-logo {
-    margin-top: 6rem;
+    margin: 6rem auto 12.5rem 0;
   }
 }
 main .container h1 {
@@ -221,6 +221,11 @@ main .container .main-inputs #main-submit {
     top: 4px;
     right: 4px;
     width: 173px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .container .main-inputs #main-submit:hover {
+    cursor: pointer;
   }
 }
 main .container .main-inputs .spanAlert {

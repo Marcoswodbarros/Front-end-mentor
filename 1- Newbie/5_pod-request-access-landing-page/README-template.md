@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Marcoswodbarros/Front-end-mentor/tree/main/1-%20Newbie/5_pod-request-access-landing-page)
-- Live Site URL: (https://meet-pi.vercel.app/)
+- Live Site URL: (https://frontend-mentor-pod-request-acces-landing-page.vercel.app/)
 
 
 ## My process

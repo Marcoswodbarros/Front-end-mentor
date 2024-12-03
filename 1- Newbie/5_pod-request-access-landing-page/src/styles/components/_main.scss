@@ -83,7 +83,7 @@ main {
             }
 
             @media screen and (min-width: 1440px) {
-                margin-top: 6rem;
+                margin: 6rem auto 12.5rem 0;
             }
         }
 
@@ -211,6 +211,13 @@ main {
                     top: 4px;
                     right: 4px;
                     width: 173px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
 
