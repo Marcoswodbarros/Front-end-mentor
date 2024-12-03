@@ -5,6 +5,12 @@
     width: 768px;
   }
 }
+@media screen and (min-width: 1440px) {
+  main {
+    min-height: 832px;
+    width: 1440px;
+  }
+}
 main .main-bg {
   height: 100%;
   -o-object-fit: cover;
@@ -19,6 +25,14 @@ main .main-bg {
     height: 720px;
     right: 0;
     width: 460px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .main-bg {
+    height: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: auto;
   }
 }
 main .bg-effect {
@@ -39,6 +53,12 @@ main .bg-effect {
     width: 625px;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .bg-effect {
+    height: 570px;
+    width: 870px;
+  }
+}
 main .container {
   align-items: center;
   display: flex;
@@ -55,12 +75,22 @@ main .container {
     width: 680px;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .container {
+    width: 1130px;
+  }
+}
 main .container .main-logo {
   margin: 9.5rem auto 2rem auto;
 }
 @media screen and (min-width: 768px) {
   main .container .main-logo {
     margin: 9.5rem auto 104px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .container .main-logo {
+    margin-top: 6rem;
   }
 }
 main .container h1 {
@@ -73,6 +103,13 @@ main .container h1 {
     font-weight: 300;
     font-size: 40px;
     width: 448px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .container h1 {
+    font-weight: 100;
+    font-size: 50px;
+    width: 625px;
   }
 }
 main .container h1 span {
@@ -152,7 +189,10 @@ main .container .main-inputs #main-email {
   background-color: #2C344B;
   border: none;
   border-radius: 25px;
+  color: #FFFFFF;
   height: 44px;
+  outline: none;
+  padding-left: 2rem;
   width: 303px;
 }
 @media screen and (min-width: 768px) {
@@ -162,11 +202,9 @@ main .container .main-inputs #main-email {
   }
 }
 main .container .main-inputs #main-email::-moz-placeholder {
-  padding-left: 2rem;
   font-weight: 600;
 }
 main .container .main-inputs #main-email::placeholder {
-  padding-left: 2rem;
   font-weight: 600;
 }
 main .container .main-inputs #main-submit {
@@ -185,6 +223,9 @@ main .container .main-inputs #main-submit {
     width: 173px;
   }
 }
+main .container .main-inputs .spanAlert {
+  color: #FB3E3E;
+}
 main .container .green-dots {
   display: none;
 }
@@ -194,6 +235,11 @@ main .container .green-dots {
     position: absolute;
     bottom: -1.2rem;
     right: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .container .green-dots {
+    bottom: 2.75rem;
   }
 }
 
