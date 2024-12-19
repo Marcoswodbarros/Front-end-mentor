@@ -1,0 +1,35 @@
+.section-second {
+
+    .not-average-container {
+        margin-top: 3rem;
+        position: relative;
+
+        .circle-pic {
+            top: 4.3rem;
+            left: -.5rem;
+            position: absolute;
+            width: 110px;
+        }
+
+        h2 {
+            color: $color-neutral-900;
+            font-family: $font-martian-mono;
+            font-size: 31px;
+        }
+
+        p {
+            color: $color-neutral-700;
+            margin-top: 2rem;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        .not-average {
+            border-radius: 8px;
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.section-third {
+    margin-top: 4rem;
+
+    .stars {
+        
+        img {
+            height: 28px;
+            width: 28px;
+        }
+    }
+
+    blockquote {
+        font-family: $font-martian-mono;
+        font-size: 23px;
+        font-weight: bold;
+
+        cite {
+            display: block;
+            font-family: $font-inter;
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 1rem;
+        }
+    }
+}

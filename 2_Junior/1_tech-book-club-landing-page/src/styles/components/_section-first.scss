@@ -1,0 +1,117 @@
+header {
+    margin: 1rem auto 2rem auto;
+    width: 343px;
+    
+    @media screen and (min-width: 768px) {
+        margin-top: 2rem;
+        width: 704px;
+    }
+}
+
+main {
+    font-family: $font-inter;
+    margin: 0 auto;
+    width: 343px;
+
+    @media screen and (min-width: 768px) {
+        width: 704px;
+    }
+
+    .section-first {
+        
+        .title-container {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            width: 343px;
+
+            @media screen and (min-width: 768px) {
+                width: 704px;
+            }
+            
+            h1 {
+                font-size: 45px;
+                
+                @media screen and (min-width: 768px) {
+                    font-size: 85px;
+                    width: 650px;
+                }
+            }
+
+            p {
+                color: $color-neutral-700;
+                font-size: 20px;
+                line-height: 2rem;
+            }
+        }
+
+        .membership-options {
+            align-items: center;
+            background-color: $color-light-salmon-50;
+            border: 2px solid $color-neutral-900;
+            border-radius: 8px;
+            column-gap: 1rem;
+            display: flex;
+            height: 64px;
+            justify-content: center;
+            margin-top: 2rem;
+
+            @media screen and (min-width: 768px) {
+                width: 380px;
+            }
+            
+            p {
+                background-color: $color-light-salmon-50;
+                font-family: $font-martian-mono;
+                font-size: 15px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+
+        .joins {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            
+            @media screen and (min-width: 768px) {
+                width: 380px;
+            }
+
+            .avatars {
+                height: 40px;
+                width: 110px;
+            }
+
+            .joins-stars-container {
+                width: 221px;
+
+                @media screen and (min-width: 768px) {
+                    width: 252px;
+                }
+
+                .stars {
+                    display: flex;
+                }
+
+                p {
+                    color: $color-neutral-700;
+                    font-family: $font-martian-mono;
+                    font-size: 13px;
+                    margin-top: .5rem;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .first-img-hero {
+            border-radius: 8px;
+            margin: 3rem 0;
+            width: 100%;
+        }
+    }
+}

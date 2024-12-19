@@ -1,0 +1,33 @@
+.section-second {
+    margin-top: 7rem;
+
+    .read-together-container {
+
+        h2 {
+            color: $color-neutral-900;
+            font-family: $font-martian-mono;
+            font-size: 31px;
+        }
+
+        .checkbox-container {
+            margin-top: 2rem;
+
+            .check-box {
+                align-items: center;
+                column-gap: 1rem;
+                display: flex;
+                margin-top: 1rem;
+
+                p {
+                    color: $color-neutral-700;
+                }
+            }
+        }
+
+        .read-together {
+            border-radius: 8px;
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
+}
