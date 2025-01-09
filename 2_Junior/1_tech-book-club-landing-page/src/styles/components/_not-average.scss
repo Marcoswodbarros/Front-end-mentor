@@ -9,17 +9,32 @@
             left: -.5rem;
             position: absolute;
             width: 110px;
+
+            @media screen and (min-width: 768px) {
+                left: 9rem;
+                top: 3.2rem;
+                width: 145px;
+            }
         }
 
         h2 {
             color: $color-neutral-900;
             font-family: $font-martian-mono;
             font-size: 31px;
+
+            @media screen and (min-width: 768px) {
+                font-size: 45px;
+                width: 530px;
+            }
         }
 
         p {
             color: $color-neutral-700;
             margin-top: 2rem;
+
+            @media screen and (min-width: 768px) {
+                font-size: 20px;
+            }
 
             span {
                 font-weight: bold;
@@ -30,6 +45,10 @@
             border-radius: 8px;
             margin-top: 2rem;
             width: 100%;
+
+            @media screen and (min-width: 768px) {
+                border-radius: 20px;
+            }
         }
     }
 }

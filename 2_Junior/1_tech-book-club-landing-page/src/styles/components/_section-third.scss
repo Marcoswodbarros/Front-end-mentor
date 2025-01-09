@@ -13,13 +13,22 @@
         font-family: $font-martian-mono;
         font-size: 23px;
         font-weight: bold;
+        margin-top: 2rem;
+
+        @media screen and (min-width: 768px) {
+            font-size: 30px;
+        }
 
         cite {
             display: block;
             font-family: $font-inter;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 300;
-            margin-top: 1rem;
+            margin-top: 2rem;
+
+            @media screen and (min-width: 768px) {
+                font-size: 20px;
+            }
         }
     }
 }

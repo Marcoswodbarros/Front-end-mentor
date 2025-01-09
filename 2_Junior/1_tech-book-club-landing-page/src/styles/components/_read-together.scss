@@ -7,6 +7,11 @@
             color: $color-neutral-900;
             font-family: $font-martian-mono;
             font-size: 31px;
+
+            @media screen and (min-width: 768px) {
+                font-size: 45px;
+                width: 530px;
+            }
         }
 
         .checkbox-container {
@@ -20,6 +25,10 @@
 
                 p {
                     color: $color-neutral-700;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -28,6 +37,10 @@
             border-radius: 8px;
             margin-top: 2rem;
             width: 100%;
+
+            @media screen and (min-width: 768px) {
+                border-radius: 20px;
+            }
         }
     }
 }

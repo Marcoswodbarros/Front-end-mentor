@@ -31,7 +31,11 @@ main .section-first .title-container {
   }
 }
 main .section-first .title-container h1 {
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
   font-size: 45px;
+  -webkit-text-fill-color: transparent;
 }
 @media screen and (min-width: 768px) {
   main .section-first .title-container h1 {
@@ -119,6 +123,12 @@ main .section-first .first-img-hero {
   font-family: "Martian Mono";
   font-size: 31px;
 }
+@media screen and (min-width: 768px) {
+  .section-second .read-together-container h2 {
+    font-size: 45px;
+    width: 530px;
+  }
+}
 .section-second .read-together-container .checkbox-container {
   margin-top: 2rem;
 }
@@ -132,10 +142,20 @@ main .section-first .first-img-hero {
 .section-second .read-together-container .checkbox-container .check-box p {
   color: #385159;
 }
+@media screen and (min-width: 768px) {
+  .section-second .read-together-container .checkbox-container .check-box p {
+    font-size: 20px;
+  }
+}
 .section-second .read-together-container .read-together {
   border-radius: 8px;
   margin-top: 2rem;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .section-second .read-together-container .read-together {
+    border-radius: 20px;
+  }
 }
 
 .section-second .not-average-container {
@@ -148,14 +168,32 @@ main .section-first .first-img-hero {
   position: absolute;
   width: 110px;
 }
+@media screen and (min-width: 768px) {
+  .section-second .not-average-container .circle-pic {
+    left: 9rem;
+    top: 3.2rem;
+    width: 145px;
+  }
+}
 .section-second .not-average-container h2 {
   color: #062630;
   font-family: "Martian Mono";
   font-size: 31px;
 }
+@media screen and (min-width: 768px) {
+  .section-second .not-average-container h2 {
+    font-size: 45px;
+    width: 530px;
+  }
+}
 .section-second .not-average-container p {
   color: #385159;
   margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .section-second .not-average-container p {
+    font-size: 20px;
+  }
 }
 .section-second .not-average-container p span {
   font-weight: bold;
@@ -165,60 +203,111 @@ main .section-first .first-img-hero {
   margin-top: 2rem;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .section-second .not-average-container .not-average {
+    border-radius: 20px;
+  }
+}
 
 .section-second .membership-options {
   margin-top: 3rem;
 }
+@media screen and (min-width: 768px) {
+  .section-second .membership-options section:nth-child(2) {
+    background: linear-gradient(160deg, hsl(0, 0%, 100%) 65%, hsl(196, 35%, 88%) 90%);
+  }
+}
 .section-second .membership-options section:nth-child(3) {
-  background: linear-gradient(135deg, hsl(10, 11%, 89%) 65%, hsl(196, 46%, 73%) 100%);
+  background: linear-gradient(160deg, hsl(0, 0%, 100%) 65%, hsl(196, 35%, 88%) 90%);
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+@media screen and (min-width: 768px) {
+  .section-second .membership-options section:nth-child(3) {
+    background: none;
+    box-shadow: none;
+  }
 }
 .section-second .membership-options h2 {
   color: #062630;
   font-family: "Martian Mono";
   font-size: 31px;
 }
-.section-second .membership-options .options {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options h2 {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.section-second .membership-options .membership-sections .options {
   border: 1px solid #E6E1DF;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   margin-top: 2rem;
   padding: 20px;
 }
-.section-second .membership-options .options h3 {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options {
+    width: 350px;
+  }
+}
+.section-second .membership-options .membership-sections .options h3 {
   font-family: "Martian Mono";
   font-size: 23px;
 }
-.section-second .membership-options .options .price {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options h3 {
+    font-size: 25px;
+  }
+}
+.section-second .membership-options .membership-sections .options .price {
   border-bottom: 1px solid #E6E1DF;
   font-family: "Martian Mono";
   margin: 1.5rem 0;
   padding-bottom: 1.5rem;
 }
-.section-second .membership-options .options .price p {
+.section-second .membership-options .membership-sections .options .price p {
   color: #062630;
   font-size: 30px;
   font-weight: bold;
 }
-.section-second .membership-options .options .price p span {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options .price p {
+    font-size: 35px;
+  }
+}
+.section-second .membership-options .membership-sections .options .price p span {
   color: #385159;
   font-size: 16px;
   font-weight: 300;
 }
-.section-second .membership-options .options .check {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options .price p span {
+    font-size: 20px;
+  }
+}
+.section-second .membership-options .membership-sections .options .check {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
   row-gap: 1rem;
 }
-.section-second .membership-options .options .check .check-option {
+.section-second .membership-options .membership-sections .options .check .check-option {
   align-items: center;
   color: #385159;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   display: flex;
 }
-.section-second .membership-options .options .btn {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options .check p {
+    font-size: 20px;
+  }
+}
+.section-second .membership-options .membership-sections .options .btn {
   align-items: center;
   background-color: #FFF5EF;
   border-radius: 8px;
@@ -228,11 +317,21 @@ main .section-first .first-img-hero {
   justify-content: center;
   margin-top: 2rem;
 }
-.section-second .membership-options .options .btn a {
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options .btn {
+    height: 65px;
+  }
+}
+.section-second .membership-options .membership-sections .options .btn a {
   color: #062630;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .section-second .membership-options .membership-sections .options .btn a {
+    font-size: 20px;
+  }
 }
 
 .section-third {
@@ -246,13 +345,24 @@ main .section-first .first-img-hero {
   font-family: "Martian Mono";
   font-size: 23px;
   font-weight: bold;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .section-third blockquote {
+    font-size: 30px;
+  }
 }
 .section-third blockquote cite {
   display: block;
   font-family: "Inter";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .section-third blockquote cite {
+    font-size: 20px;
+  }
 }
 
 footer {
@@ -263,6 +373,12 @@ footer {
   padding: 3rem 1rem 2rem 1rem;
   width: 375px;
 }
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 3rem 0 2rem 0;
+    width: 768px;
+  }
+}
 footer h2 {
   color: #FFFFFF;
   font-family: "Martian Mono";
@@ -270,6 +386,13 @@ footer h2 {
   font-weight: 500;
   line-height: 2.8rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  footer h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    width: 500px;
+  }
 }
 footer .membership-options {
   align-items: center;
@@ -283,12 +406,23 @@ footer .membership-options {
   justify-content: center;
   margin-top: 2rem;
 }
+@media screen and (min-width: 768px) {
+  footer .membership-options {
+    margin: 2rem auto 0 auto;
+    width: 380px;
+  }
+}
 footer .membership-options p {
   color: #FFFFFF;
   font-family: "Martian Mono";
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  footer .membership-options p {
+    font-size: 16px;
+  }
 }
 footer .joins {
   align-items: center;
@@ -298,12 +432,26 @@ footer .joins {
   margin-top: 2rem;
   padding-bottom: 4rem;
 }
+@media screen and (min-width: 768px) {
+  footer .joins {
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    justify-content: center;
+    width: 768px;
+    margin: 2rem auto 0 auto;
+  }
+}
 footer .joins .avatars {
   height: 40px;
   width: 110px;
 }
 footer .joins .joins-stars-container {
   width: 221px;
+}
+@media screen and (min-width: 768px) {
+  footer .joins .joins-stars-container {
+    width: 255px;
+  }
 }
 footer .joins .joins-stars-container .stars {
   display: flex;
@@ -320,6 +468,13 @@ footer .footer-end {
   flex-direction: column;
   padding-top: 2rem;
   row-gap: 1rem;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-end {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
+  }
 }
 footer .footer-end p {
   color: #FFFFFF;

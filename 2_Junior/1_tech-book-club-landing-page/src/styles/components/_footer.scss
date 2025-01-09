@@ -6,6 +6,11 @@ footer {
     padding: 3rem 1rem 2rem 1rem;
     width: 375px;
 
+    @media screen and (min-width: 768px) {
+        padding: 3rem 0 2rem 0;
+        width: 768px;
+    }
+
     h2 {
         color: $color-neutral-0;
         font-family: $font-martian-mono;
@@ -13,6 +18,12 @@ footer {
         font-weight: 500;
         line-height: 2.8rem;
         text-align: center;
+
+        @media screen and (min-width: 768px) {
+            font-size: 35px;
+            margin: 0 auto;
+            width: 500px;
+        }
     }
 
     .membership-options {
@@ -26,12 +37,21 @@ footer {
         justify-content: center;
         margin-top: 2rem;
 
+        @media screen and (min-width: 768px) {
+            margin: 2rem auto 0 auto;
+            width: 380px;
+        }
+
         p {
             color: $color-neutral-0;
             font-family: $font-martian-mono ;
             font-size: 13px;
             font-weight: 600;
             text-transform: uppercase;
+
+            @media screen and (min-width: 768px) {
+                font-size: 16px;
+            }
         }
     }
 
@@ -42,6 +62,13 @@ footer {
         justify-content: space-between;
         margin-top: 2rem;
         padding-bottom: 4rem;
+
+        @media screen and (min-width: 768px) {
+            column-gap: 1rem;
+            justify-content: center;
+            width: 768px;
+            margin: 2rem auto 0 auto;
+        }
         
         .avatars {
             height: 40px;
@@ -50,6 +77,10 @@ footer {
         
         .joins-stars-container {
             width: 221px;
+
+            @media screen and (min-width: 768px) {
+                width: 255px;
+            }
 
             .stars {
                 display: flex;
@@ -70,6 +101,12 @@ footer {
         flex-direction: column;
         padding-top: 2rem;
         row-gap: 1rem;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem 2rem 0 2rem;
+        }
 
         p {
             color: $color-neutral-0;

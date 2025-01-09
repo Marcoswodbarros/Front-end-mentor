@@ -30,7 +30,10 @@ main {
             }
             
             h1 {
+                background-clip: text;
+                background-image: $color-text-gradient;
                 font-size: 45px;
+                -webkit-text-fill-color: transparent;
                 
                 @media screen and (min-width: 768px) {
                     font-size: 85px;
