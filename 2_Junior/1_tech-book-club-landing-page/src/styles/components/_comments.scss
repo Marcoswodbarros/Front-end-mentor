@@ -1,7 +1,7 @@
-.section-third {
+#comments {
     margin-top: 4rem;
 
-    .stars {
+    .stars-container {
         
         img {
             height: 28px;
@@ -10,6 +10,7 @@
     }
 
     blockquote {
+        color: $color-neutral-900;
         font-family: $font-martian-mono;
         font-size: 23px;
         font-weight: bold;
@@ -20,9 +21,10 @@
         }
 
         cite {
+            color: $color-neutral-700;
             display: block;
             font-family: $font-inter;
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 300;
             margin-top: 2rem;
 
