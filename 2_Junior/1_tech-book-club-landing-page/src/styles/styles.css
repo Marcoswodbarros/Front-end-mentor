@@ -2,21 +2,42 @@ header {
   margin: 1rem auto 2rem auto;
   width: 345px;
 }
+@media screen and (min-width: 768px) {
+  header {
+    width: 700px;
+  }
+}
 
 main {
   font-family: "Inter";
   margin: 0 auto;
   width: 345px;
 }
+@media screen and (min-width: 768px) {
+  main {
+    width: 700px;
+  }
+}
 main #intro {
   width: 345px;
+}
+@media screen and (min-width: 768px) {
+  main #intro {
+    width: 700px;
+  }
 }
 main #intro h1 {
   -webkit-background-clip: text;
           background-clip: text;
   background-image: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
-  font-size: 50px;
+  font-family: "Martian Mono";
+  font-size: 35px;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  main #intro h1 {
+    font-size: 60px;
+  }
 }
 main #intro p {
   color: #385159;
@@ -36,6 +57,11 @@ main #intro .intro-btn {
   justify-content: center;
   margin-top: 2rem;
 }
+@media screen and (min-width: 768px) {
+  main #intro .intro-btn {
+    width: 380px;
+  }
+}
 main #intro .intro-btn span {
   background-color: #FFF5EF;
   font-family: "Martian Mono";
@@ -51,6 +77,11 @@ main #intro .developers-join {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  main #intro .developers-join {
+    width: 400px;
+  }
 }
 main #intro .developers-join .avatars {
   grid-column: 1/2;
@@ -84,6 +115,12 @@ main #intro .intro-img-hero {
   font-family: "Martian Mono";
   font-size: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #read-together h2 {
+    font-size: 50px;
+    width: 500px;
+  }
+}
 #read-together .check-container {
   margin-top: 2rem;
 }
@@ -97,10 +134,20 @@ main #intro .intro-img-hero {
 #read-together .check-container .check p {
   color: #385159;
 }
+@media screen and (min-width: 768px) {
+  #read-together .check-container .check p {
+    font-size: 18px;
+  }
+}
 #read-together .read-img {
   border-radius: 15px;
   margin-top: 2rem;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #read-together .read-img {
+    border-radius: 20px;
+  }
 }
 
 #not-average {
@@ -113,12 +160,27 @@ main #intro .intro-img-hero {
   font-size: 2rem;
   line-height: 3rem;
 }
+@media screen and (min-width: 768px) {
+  #not-average h2 {
+    font-size: 50px;
+    line-height: 4rem;
+    width: 560px;
+  }
+}
 #not-average p {
   color: #385159;
   margin-top: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #not-average p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    width: 690px;
+  }
+}
 #not-average p span {
   font-weight: bold;
+  font-size: 18px;
 }
 #not-average .not-img {
   border-radius: 15px;
@@ -126,10 +188,17 @@ main #intro .intro-img-hero {
   width: 100%;
 }
 #not-average .not-circle {
-  top: 6rem;
   left: -0.5rem;
   position: absolute;
+  top: 6rem;
   width: 110px;
+}
+@media screen and (min-width: 768px) {
+  #not-average .not-circle {
+    left: 10rem;
+    top: 4rem;
+    width: 160px;
+  }
 }
 
 #membreship-option {
@@ -140,45 +209,72 @@ main #intro .intro-img-hero {
   font-size: 2rem;
   font-family: "Martian Mono";
 }
+@media screen and (min-width: 768px) {
+  #membreship-option h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #membreship-option section:nth-child(2) {
+    background-image: linear-gradient(160deg, hsl(0, 0%, 100%) 65%, hsl(196, 35%, 88%) 90%);
+  }
+}
 #membreship-option section:nth-child(3) {
   background-image: linear-gradient(160deg, hsl(0, 0%, 100%) 65%, hsl(196, 35%, 88%) 90%);
 }
-#membreship-option .options {
+@media screen and (min-width: 768px) {
+  #membreship-option section:nth-child(3) {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #membreship-option .options-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+#membreship-option .options-container .options {
   border: 1px solid #E6E1DF;
   border-radius: 8px;
   font-family: "Martian Mono";
   margin-top: 2rem;
   padding: 20px;
 }
-#membreship-option .options h3 {
+@media screen and (min-width: 768px) {
+  #membreship-option .options-container .options {
+    width: 340px;
+  }
+}
+#membreship-option .options-container .options h3 {
   font-size: 22px;
 }
-#membreship-option .options .options-price {
+#membreship-option .options-container .options .options-price {
   border-bottom: 1px solid #E6E1DF;
   font-size: 2rem;
   font-weight: bold;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
-#membreship-option .options .options-price span {
+#membreship-option .options-container .options .options-price span {
   color: #385159;
   font-size: 1rem;
   font-weight: 300;
 }
-#membreship-option .options .check-container {
+#membreship-option .options-container .options .check-container {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
   row-gap: 1rem;
 }
-#membreship-option .options .check-container .check {
+#membreship-option .options-container .options .check-container .check {
   align-items: center;
   color: #385159;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   display: flex;
 }
-#membreship-option .options .membership-btn {
+#membreship-option .options-container .options .membership-btn {
   align-items: center;
   background-color: #FFFFFF;
   border: 2px solid #062630;
@@ -188,7 +284,7 @@ main #intro .intro-img-hero {
   justify-content: center;
   margin-top: 2rem;
 }
-#membreship-option .options .membership-btn a {
+#membreship-option .options-container .options .membership-btn a {
   color: #062630;
   font-weight: 600;
   text-decoration: none;
@@ -238,13 +334,27 @@ footer {
   position: relative;
   width: 375px;
 }
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 3rem 0 1rem 0;
+    width: 768px;
+  }
+}
 footer h2 {
   color: #FFFFFF;
   font-family: "Martian Mono";
-  font-size: 31px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 2.8rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  footer h2 {
+    font-size: 50px;
+    line-height: 4rem;
+    margin: 0 auto;
+    width: 665px;
+  }
 }
 footer .footer-btn {
   align-items: center;
@@ -254,6 +364,14 @@ footer .footer-btn {
   height: 64px;
   justify-content: center;
   margin-top: 2rem;
+  z-index: 20;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-btn {
+    font-size: 16px;
+    margin: 2rem auto 0 auto;
+    width: 380px;
+  }
 }
 footer .footer-btn a {
   color: #FFFFFF;
@@ -271,6 +389,12 @@ footer .footer-rating {
   grid-template-columns: auto 1fr;
   grid-template-rows: auto auto;
   margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-rating {
+    margin: 2rem auto 0 auto;
+    width: 400px;
+  }
 }
 footer .footer-rating .footer-avatars {
   grid-column: 1/2;
@@ -294,6 +418,14 @@ footer .footer-links {
   margin-top: 4rem;
   padding-top: 1rem;
   row-gap: 1rem;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem 0;
+  }
 }
 footer .footer-links p {
   color: #FAF5F3;
@@ -309,6 +441,7 @@ footer .footer-bg {
   left: 0;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 * {

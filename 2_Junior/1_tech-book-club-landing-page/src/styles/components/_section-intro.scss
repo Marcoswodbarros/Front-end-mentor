@@ -1,6 +1,10 @@
 header {
     margin: 1rem auto 2rem auto;
     width: 345px;
+
+    @media screen and (min-width: 768px) {
+        width: 700px;
+    }
 }
 
 main {
@@ -8,14 +12,27 @@ main {
     margin: 0 auto;
     width: 345px;
 
+    @media screen and (min-width: 768px) {
+        width: 700px;
+    }
+
     #intro {
         width: 345px;
+
+        @media screen and (min-width: 768px) {
+            width: 700px;
+        }
 
         h1 {
             background-clip: text;
             background-image: $color-text-gradient;
-            font-size: 50px;
+            font-family: $font-martian-mono;
+            font-size: 35px;
             -webkit-text-fill-color: transparent;
+
+            @media screen and (min-width: 768px) {
+                font-size: 60px;
+            }
         }
 
         p {
@@ -36,6 +53,10 @@ main {
             justify-content: center;
             margin-top: 2rem;
 
+            @media screen and (min-width: 768px) {
+                width: 380px;   
+            }
+
             span {
                 background-color: $color-light-salmon-50;
                 font-family: $font-martian-mono;
@@ -52,6 +73,10 @@ main {
             grid-template-columns: auto auto;
             grid-template-rows: auto auto;
             margin-top: 1rem;
+
+            @media screen and (min-width: 768px) {
+                width: 400px;
+            }
 
             .avatars {
                 grid-column: 1 / 2;

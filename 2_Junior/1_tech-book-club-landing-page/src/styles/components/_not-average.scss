@@ -7,14 +7,27 @@
         font-family: $font-martian-mono;
         font-size: 2rem;
         line-height: 3rem;
+
+        @media screen and (min-width: 768px) {
+            font-size: 50px;
+            line-height: 4rem;
+            width: 560px;
+        }
     }
 
     p {
         color: $color-neutral-700;
         margin-top: 2rem;
 
+        @media screen and (min-width: 768px) {
+            font-size: 18px;
+            line-height: 1.5rem;
+            width: 690px;
+        }
+
         span {
             font-weight: bold;
+            font-size: 18px;
         }
     }
 
@@ -25,9 +38,15 @@
     }
 
     .not-circle {
-        top: 6rem;
         left: -.5rem;
         position: absolute;
+        top: 6rem;
         width: 110px;
+        
+        @media screen and (min-width: 768px) {
+            left: 10rem;
+            top: 4rem;
+            width: 160px;
+        }
     }
 }
