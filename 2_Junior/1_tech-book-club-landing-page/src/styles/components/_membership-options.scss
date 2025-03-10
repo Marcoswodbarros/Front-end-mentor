@@ -2,6 +2,11 @@
     color: $color-neutral-900;
     margin-top: 4rem;
 
+    @media screen and (min-width: 1440px) {
+        margin: 13rem auto 0;
+        width: 970px;
+    }
+
     h2 {
         font-size: 2rem;
         font-family: $font-martian-mono;
@@ -9,19 +14,23 @@
         @media screen and (min-width: 768px) {
             font-size: 50px;
         }
+
+        @media screen and (min-width: 1440px) {
+            text-align: center;
+        }
     }
 
     & section:nth-child(2) {
 
-        @media screen and (min-width:768px) {
+        @media screen and (min-width: 768px) {
             background-image: $color-card-gradient;
         }
     }
-    
+
     & section:nth-child(3) {
         background-image: $color-card-gradient;
 
-        @media screen and (min-width:768px) {
+        @media screen and (min-width: 768px) {
             background-image: none;
         }
     }
@@ -43,6 +52,10 @@
 
             @media screen and (min-width: 768px) {
                 width: 340px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                width: 286px;
             }
 
             h3 {

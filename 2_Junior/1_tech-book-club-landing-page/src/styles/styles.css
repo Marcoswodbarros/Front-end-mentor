@@ -318,6 +318,12 @@ main #intro .intro-img-hero {
   color: #062630;
   margin-top: 4rem;
 }
+@media screen and (min-width: 1440px) {
+  #membreship-option {
+    margin: 13rem auto 0;
+    width: 970px;
+  }
+}
 #membreship-option h2 {
   font-size: 2rem;
   font-family: "Martian Mono";
@@ -325,6 +331,11 @@ main #intro .intro-img-hero {
 @media screen and (min-width: 768px) {
   #membreship-option h2 {
     font-size: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #membreship-option h2 {
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -357,6 +368,11 @@ main #intro .intro-img-hero {
 @media screen and (min-width: 768px) {
   #membreship-option .options-container .options {
     width: 340px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #membreship-option .options-container .options {
+    width: 286px;
   }
 }
 #membreship-option .options-container .options h3 {
