@@ -1,6 +1,14 @@
 #comments {
     margin-top: 4rem;
 
+    @media screen and (min-width: 1440px) {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 6rem auto 0;
+        width: 970px;
+    }
+
     .stars-container {
         
         img {
@@ -18,6 +26,10 @@
 
         @media screen and (min-width: 768px) {
             font-size: 30px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            text-align: center;
         }
 
         cite {
