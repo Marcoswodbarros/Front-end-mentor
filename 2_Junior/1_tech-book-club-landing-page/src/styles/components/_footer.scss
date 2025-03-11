@@ -2,7 +2,7 @@ footer {
     background-color: $color-neutral-900;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin: 4rem auto 0 auto;
+    margin: 4rem auto 0;
     padding: 3rem 1rem 2rem 1rem;
     overflow: hidden;
     position: relative;
@@ -11,6 +11,11 @@ footer {
     @media screen and (min-width: 768px) {
         padding: 3rem 0 1rem 0;
         width: 768px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-top: 6rem;
+        width: 1440px;
     }
 
     h2 {
@@ -37,7 +42,6 @@ footer {
         height: 64px;
         justify-content: center;
         margin-top: 2rem;
-        z-index: 20;
 
         @media screen and (min-width:768px) {
             font-size: 16px;
@@ -52,6 +56,11 @@ footer {
             margin-right: 1rem;
             text-decoration: none;
             text-transform: uppercase;
+            z-index: 2;
+
+            @media screen and (min-width: 1440px) {
+                cursor: pointer;
+            }
         }
     }
 
@@ -94,12 +103,16 @@ footer {
         margin-top: 4rem;
         padding-top: 1rem;
         row-gap: 1rem;
-        z-index: 1;
 
         @media screen and (min-width:768px) {
             flex-direction: row;
             justify-content: space-between;
             padding: 1rem 2rem 0;
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin: 4rem auto 0;
+            width: 1170px;
         }
 
         p {
@@ -110,6 +123,10 @@ footer {
         div {
             column-gap: 1rem;
             display: flex;
+
+            a {
+                z-index: 2;
+            }
         }
     }
 
@@ -118,6 +135,9 @@ footer {
         left: 0;
         position: absolute;
         top: 0;
-        z-index: 1;
+
+        @media screen and (min-width: 768px) {
+            height: 820px;
+        }
     }
 }
