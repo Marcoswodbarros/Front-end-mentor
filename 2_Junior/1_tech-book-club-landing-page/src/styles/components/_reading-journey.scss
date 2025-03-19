@@ -1,0 +1,63 @@
+#reading-journey {
+    display: none;
+
+    @media screen and (min-width: 1440px) {
+        background-image: $color-card-gradient;
+        display: block;
+        border-bottom-right-radius: 8px;
+        font-family: $font-martian-mono;
+        margin: 14rem auto 0;
+        padding-bottom: 5rem;
+        width: 1140px;
+    }
+
+    h2 {
+        font-size: 50px;
+        margin: 0 auto;
+        text-align: center;
+        width: 525px;
+    }
+
+    .steps-container {
+        column-gap: 2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        width: 1074px;
+
+        .steps {
+            display: grid;
+            grid-template-columns: 40px auto;
+            grid-template-rows: 40px auto;
+            row-gap: 1rem;
+
+            .span-container {
+                align-items: center;
+                border: 2px solid $color-neutral-900;
+                border-radius: 5px;
+                display: flex;
+                height: 40px;
+                justify-content: center;
+                width: 40px;
+
+                span {
+                    font-size: 24px;
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                }
+            }
+
+            img {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                margin-left: 6rem;
+            }
+
+            p {
+                grid-column: 1 / 3;
+                grid-row: 2 / 3;
+                width: 200px;
+            }
+        }
+    }
+}
