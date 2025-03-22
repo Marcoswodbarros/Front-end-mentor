@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Marcoswodbarros/Front-end-mentor/tree/main/2_Junior/1_tech-book-club-landing-page)
-- Live Site URL: (https://tech-book-club-landing-page.vercel.app/)
+- Live Site URL: (https://tech-book-club-landing-page-nu.vercel.app/)
 
 
 ## My process
