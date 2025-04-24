@@ -1,0 +1,24 @@
+.bmi-meaning {
+    margin: 64px auto 0 auto;
+    width: 375px;
+
+    img {
+        width: 100%;
+    }
+
+    .bmi-meaning-text {
+        margin: 48px auto 0 auto;
+        width: 328px;
+        
+        h2 {
+            @include semiBoldPreset3;
+            color: $color-blue-900;
+            margin-bottom: 32px;
+        }
+
+        p {
+            @include regularPreset1;
+            color: $color-gray-500;
+        }
+    }
+}

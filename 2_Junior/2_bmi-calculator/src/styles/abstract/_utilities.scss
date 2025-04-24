@@ -1,0 +1,80 @@
+// Fonts
+
+//Regular
+@mixin regularPreset1 {
+    font-family: $font-inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 150%;
+}
+
+@mixin regularPreset2 {
+    font-family: $font-inter;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 150%;
+}
+
+
+
+// Semi Bold
+@mixin semiBoldPreset1 {
+    font-family: $font-inter;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+}
+
+@mixin semiBoldPreset2 {
+    font-family: $font-inter;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+}
+
+@mixin semiBoldPreset3 {
+    font-family: $font-inter;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+}
+
+@mixin semiBoldPreset4 {
+    font-family: $font-inter;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 120%;
+}
+
+@mixin semiBoldPreset5 {
+    font-family: $font-inter;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 120%;
+}
+
+@mixin semiBoldPreset6 {
+    font-family: $font-inter;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 150%;
+}
+
+
+
+// Bold
+@mixin boldPreset1 {
+    font-family: $font-inter;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 150%;
+}

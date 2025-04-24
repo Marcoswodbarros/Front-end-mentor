@@ -1,0 +1,26 @@
+.health {
+    display: flex;
+    flex-direction: column;
+    margin: 61px auto 0 auto;
+    padding: 48px 24px;
+    row-gap: 40px;
+    width: 375px;
+
+    section {
+
+        .health-texts {
+            margin-top: 32px;
+
+            h3 {
+                @include semiBoldPreset4;
+                color: $color-blue-900;
+                margin-bottom: 24px;
+            }
+
+            p {
+                @include regularPreset1;
+                color: $color-gray-500;
+            }
+        }
+    }
+}

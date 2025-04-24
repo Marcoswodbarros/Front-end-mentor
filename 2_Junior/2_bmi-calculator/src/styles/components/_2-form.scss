@@ -1,0 +1,95 @@
+.form {
+    border-radius: 16px;
+    color: $color-blue-900;
+    margin: 0 auto;
+    padding: 24px;
+    width: 328px;
+
+    h2 {
+        @include semiBoldPreset4;
+        margin-bottom: 24px;
+    }
+
+    form {
+        margin-bottom: 24px;
+
+        .form-check {
+            border: none;
+            display: flex;
+            justify-content: space-between;
+
+            .unit-container {
+                align-items: center;
+                column-gap: 32px;
+                display: flex;
+                margin-bottom: 24px;
+                padding: 0 10px;
+
+                input[type="radio"] {
+                    transform: scale(2.39);
+                }
+
+                label {
+                    @include semiBoldPreset6;
+                }
+            }
+        }
+
+        .form-numbers {
+            border: none;
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+
+            .numbers-container {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                row-gap: 5px;
+
+                label {
+                    @include regularPreset2;
+                    color: $color-gray-500;
+                }
+
+                input {
+                    @include semiBoldPreset4;
+                    border-radius: 12px;
+                    border: 1px solid $color-gray-500;
+                    color: $color-gray-500;
+                    height: 77px;
+                    outline: none;
+                    padding-left: 20px;
+                    width: 280px;
+                }
+
+                span {
+                    @include semiBoldPreset4;
+                    color: $color-blue-500;
+                    position: absolute;
+                    right: 20px;
+                    top: 47%;
+                }
+            }
+        }
+    }
+
+    .results {
+        background-color: $color-blue-500;
+        border-radius: 16px;
+        height: 180px;
+        padding: 32px;
+        width: 280px;
+
+        h3 {
+            @include semiBoldPreset4;
+            color: $color-white;
+            margin-bottom: 24px;
+        }
+
+        p {
+            @include regularPreset2;
+            color: $color-white;
+        }
+    }
+}

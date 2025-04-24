@@ -1,0 +1,45 @@
+.limitations {
+    margin: 82px auto 96px auto;
+    width: 328px;
+
+    h2 {
+        @include semiBoldPreset3;
+        color: $color-blue-900;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    p {
+        @include regularPreset1;
+        color: $color-gray-500;
+        text-align: center;
+    }
+
+    .limitations-kind-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 56px;
+        row-gap: 16px;
+
+        section {
+            padding: 24px;
+
+            div {
+                align-items: center;
+                column-gap: 16px;
+                display: flex;
+                margin-bottom: 16px;
+
+                h3 {
+                    @include semiBoldPreset5;
+                    color: $color-blue-900;
+                }
+            }
+
+            p {
+                text-align: left;
+            }
+
+        }
+    }
+}

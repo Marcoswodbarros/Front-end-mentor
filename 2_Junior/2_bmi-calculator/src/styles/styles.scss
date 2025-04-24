@@ -1,0 +1,17 @@
+@import "abstract/utilities";
+@import "abstract/variables";
+@import "components/1-hero";
+@import "components/2-form";
+@import "components/3-bmi-meaning";
+@import "components/4-health";
+@import "components/5-limitations";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}

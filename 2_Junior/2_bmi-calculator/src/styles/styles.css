@@ -1,0 +1,260 @@
+main {
+  width: 375px;
+}
+main .bmi-logo {
+  margin: 32px auto;
+  height: 40px;
+  width: 100%;
+}
+main .hero {
+  margin: 0 auto 32px auto;
+  text-align: center;
+  width: 328px;
+}
+main .hero h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 110%;
+  color: #253347;
+  margin-bottom: 24px;
+}
+main .hero p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+}
+
+.form {
+  border-radius: 16px;
+  color: #253347;
+  margin: 0 auto;
+  padding: 24px;
+  width: 328px;
+}
+.form h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+.form form {
+  margin-bottom: 24px;
+}
+.form form .form-check {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.form form .form-check .unit-container {
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  display: flex;
+  margin-bottom: 24px;
+  padding: 0 10px;
+}
+.form form .form-check .unit-container input[type=radio] {
+  transform: scale(2.39);
+}
+.form form .form-check .unit-container label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 150%;
+}
+.form form .form-numbers {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.form form .form-numbers .numbers-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 5px;
+}
+.form form .form-numbers .numbers-container label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+}
+.form form .form-numbers .numbers-container input {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  border-radius: 12px;
+  border: 1px solid #5E6E85;
+  color: #5E6E85;
+  height: 77px;
+  outline: none;
+  padding-left: 20px;
+  width: 280px;
+}
+.form form .form-numbers .numbers-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  color: #345FF6;
+  position: absolute;
+  right: 20px;
+  top: 47%;
+}
+.form .results {
+  background-color: #345FF6;
+  border-radius: 16px;
+  height: 180px;
+  padding: 32px;
+  width: 280px;
+}
+.form .results h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.form .results p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.bmi-meaning {
+  margin: 64px auto 0 auto;
+  width: 375px;
+}
+.bmi-meaning img {
+  width: 100%;
+}
+.bmi-meaning .bmi-meaning-text {
+  margin: 48px auto 0 auto;
+  width: 328px;
+}
+.bmi-meaning .bmi-meaning-text h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 110%;
+  color: #253347;
+  margin-bottom: 32px;
+}
+.bmi-meaning .bmi-meaning-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+}
+
+.health {
+  display: flex;
+  flex-direction: column;
+  margin: 61px auto 0 auto;
+  padding: 48px 24px;
+  row-gap: 40px;
+  width: 375px;
+}
+.health section .health-texts {
+  margin-top: 32px;
+}
+.health section .health-texts h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  color: #253347;
+  margin-bottom: 24px;
+}
+.health section .health-texts p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+}
+
+.limitations {
+  margin: 82px auto 96px auto;
+  width: 328px;
+}
+.limitations h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 110%;
+  color: #253347;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.limitations p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+  text-align: center;
+}
+.limitations .limitations-kind-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  row-gap: 16px;
+}
+.limitations .limitations-kind-container section {
+  padding: 24px;
+}
+.limitations .limitations-kind-container section div {
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  display: flex;
+  margin-bottom: 16px;
+}
+.limitations .limitations-kind-container section div h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  line-height: 120%;
+  color: #253347;
+}
+.limitations .limitations-kind-container section p {
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}/*# sourceMappingURL=styles.css.map */

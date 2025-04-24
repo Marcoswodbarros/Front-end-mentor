@@ -1,0 +1,26 @@
+main {
+    width: 375px;
+
+    .bmi-logo {
+        margin: 32px auto;
+        height: 40px;
+        width: 100%;
+    }
+
+    .hero {
+        margin: 0 auto 32px auto;
+        text-align: center;
+        width: 328px;
+
+        h1 {
+            @include semiBoldPreset2;
+            color: $color-blue-900;
+            margin-bottom: 24px;
+        }
+
+        p {
+            @include regularPreset1;
+            color: $color-gray-500;
+        }
+    }
+}
