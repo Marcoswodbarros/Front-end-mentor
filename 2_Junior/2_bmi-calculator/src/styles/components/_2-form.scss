@@ -5,13 +5,26 @@
     padding: 24px;
     width: 328px;
 
+    @media screen and (min-width: 768px) {
+        padding-top: 32px;
+        width: 686px;
+    }
+
     h2 {
         @include semiBoldPreset4;
         margin-bottom: 24px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 32px;
+        }
     }
 
     form {
         margin-bottom: 24px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 32px;
+        }
 
         .form-check {
             border: none;
@@ -20,10 +33,15 @@
 
             .unit-container {
                 align-items: center;
-                column-gap: 32px;
+                column-gap: 24px;
                 display: flex;
                 margin-bottom: 24px;
                 padding: 0 10px;
+
+                @media screen and (min-width: 768px) {
+                    margin-bottom: 32px;
+                    width: 299px;
+                }
 
                 input[type="radio"] {
                     transform: scale(2.39);
@@ -40,6 +58,11 @@
             display: flex;
             flex-direction: column;
             row-gap: 16px;
+
+            @media screen and (min-width: 768px) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
 
             .numbers-container {
                 display: flex;
@@ -61,6 +84,10 @@
                     outline: none;
                     padding-left: 20px;
                     width: 280px;
+
+                    @media screen and (min-width: 768px) {
+                        width: 299px;
+                    }
                 }
 
                 span {
@@ -81,10 +108,21 @@
         padding: 32px;
         width: 280px;
 
+        @media screen and (min-width: 768px) {
+            border-bottom-right-radius: 160px;
+            border-top-right-radius: 160px;
+            height: 130px;
+            width: 100%;
+        }
+
         h3 {
             @include semiBoldPreset4;
             color: $color-white;
             margin-bottom: 24px;
+
+            @media screen and (min-width: 768px) {
+                margin-bottom: 16px;
+            }
         }
 
         p {

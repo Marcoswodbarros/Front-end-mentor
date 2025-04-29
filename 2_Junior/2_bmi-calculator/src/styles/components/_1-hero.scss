@@ -1,10 +1,13 @@
 main {
-    width: 375px;
 
     .bmi-logo {
         margin: 32px auto;
         height: 40px;
         width: 100%;
+
+        @media screen and (min-width: 768px) {
+            margin: 32px auto 40px auto;
+        }
     }
 
     .hero {
@@ -12,10 +15,20 @@ main {
         text-align: center;
         width: 328px;
 
+        @media screen and (min-width: 768px) {
+            margin: 0 auto 40px auto;
+            width: 686px;
+        }
+
         h1 {
             @include semiBoldPreset2;
             color: $color-blue-900;
             margin-bottom: 24px;
+
+            @media screen and (min-width: 768px) {
+                margin: 0 auto 24px auto;
+                width: 369px;
+            }
         }
 
         p {

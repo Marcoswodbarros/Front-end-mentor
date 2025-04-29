@@ -1,15 +1,23 @@
-main {
-  width: 375px;
-}
 main .bmi-logo {
   margin: 32px auto;
   height: 40px;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  main .bmi-logo {
+    margin: 32px auto 40px auto;
+  }
+}
 main .hero {
   margin: 0 auto 32px auto;
   text-align: center;
   width: 328px;
+}
+@media screen and (min-width: 768px) {
+  main .hero {
+    margin: 0 auto 40px auto;
+    width: 686px;
+  }
 }
 main .hero h1 {
   font-family: "Inter", sans-serif;
@@ -19,6 +27,12 @@ main .hero h1 {
   line-height: 110%;
   color: #253347;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  main .hero h1 {
+    margin: 0 auto 24px auto;
+    width: 369px;
+  }
 }
 main .hero p {
   font-family: "Inter", sans-serif;
@@ -36,6 +50,12 @@ main .hero p {
   padding: 24px;
   width: 328px;
 }
+@media screen and (min-width: 768px) {
+  .form {
+    padding-top: 32px;
+    width: 686px;
+  }
+}
 .form h2 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -44,8 +64,18 @@ main .hero p {
   line-height: 120%;
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .form h2 {
+    margin-bottom: 32px;
+  }
+}
 .form form {
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .form form {
+    margin-bottom: 32px;
+  }
 }
 .form form .form-check {
   border: none;
@@ -54,11 +84,17 @@ main .hero p {
 }
 .form form .form-check .unit-container {
   align-items: center;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
   display: flex;
   margin-bottom: 24px;
   padding: 0 10px;
+}
+@media screen and (min-width: 768px) {
+  .form form .form-check .unit-container {
+    margin-bottom: 32px;
+    width: 299px;
+  }
 }
 .form form .form-check .unit-container input[type=radio] {
   transform: scale(2.39);
@@ -75,6 +111,12 @@ main .hero p {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+}
+@media screen and (min-width: 768px) {
+  .form form .form-numbers {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .form form .form-numbers .numbers-container {
   display: flex;
@@ -104,6 +146,11 @@ main .hero p {
   padding-left: 20px;
   width: 280px;
 }
+@media screen and (min-width: 768px) {
+  .form form .form-numbers .numbers-container input {
+    width: 299px;
+  }
+}
 .form form .form-numbers .numbers-container span {
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -122,6 +169,14 @@ main .hero p {
   padding: 32px;
   width: 280px;
 }
+@media screen and (min-width: 768px) {
+  .form .results {
+    border-bottom-right-radius: 160px;
+    border-top-right-radius: 160px;
+    height: 130px;
+    width: 100%;
+  }
+}
 .form .results h3 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -130,6 +185,11 @@ main .hero p {
   line-height: 120%;
   color: #FFFFFF;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .form .results h3 {
+    margin-bottom: 16px;
+  }
 }
 .form .results p {
   font-family: "Inter", sans-serif;
@@ -144,12 +204,40 @@ main .hero p {
   margin: 64px auto 0 auto;
   width: 375px;
 }
+@media screen and (min-width: 768px) {
+  .bmi-meaning {
+    display: flex;
+    height: 411px;
+    justify-content: flex-end;
+    margin-top: 88px;
+    position: relative;
+    width: 686px;
+  }
+}
 .bmi-meaning img {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .bmi-meaning img {
+    height: 411px;
+    left: -12rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 435px;
+  }
 }
 .bmi-meaning .bmi-meaning-text {
   margin: 48px auto 0 auto;
   width: 328px;
+}
+@media screen and (min-width: 768px) {
+  .bmi-meaning .bmi-meaning-text {
+    height: 240px;
+    position: absolute;
+    right: 0;
+    width: 331px;
+  }
 }
 .bmi-meaning .bmi-meaning-text h2 {
   font-family: "Inter", sans-serif;
@@ -177,6 +265,26 @@ main .hero p {
   row-gap: 40px;
   width: 375px;
 }
+@media screen and (min-width: 768px) {
+  .health {
+    margin-top: 95.91px;
+    padding: 60px 41px;
+    width: 686px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .health section {
+    align-items: center;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .health section img {
+    margin-top: 32px;
+  }
+}
 .health section .health-texts {
   margin-top: 32px;
 }
@@ -202,6 +310,12 @@ main .hero p {
   margin: 82px auto 96px auto;
   width: 328px;
 }
+@media screen and (min-width: 768px) {
+  .limitations {
+    margin-top: 96.09px;
+    width: 686px;
+  }
+}
 .limitations h2 {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -212,7 +326,7 @@ main .hero p {
   margin-bottom: 32px;
   text-align: center;
 }
-.limitations p {
+.limitations .limitations-caption {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -221,14 +335,35 @@ main .hero p {
   color: #5E6E85;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .limitations .limitations-caption {
+    width: 680px;
+  }
+}
 .limitations .limitations-kind-container {
   display: flex;
   flex-direction: column;
   margin-top: 56px;
   row-gap: 16px;
 }
+@media screen and (min-width: 768px) {
+  .limitations .limitations-kind-container {
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 24px;
+  }
+}
 .limitations .limitations-kind-container section {
   padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .limitations .limitations-kind-container section {
+    padding: 32px;
+    width: 335px;
+  }
 }
 .limitations .limitations-kind-container section div {
   align-items: center;
@@ -246,7 +381,15 @@ main .hero p {
   color: #253347;
 }
 .limitations .limitations-kind-container section p {
-  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  color: #5E6E85;
+}
+.limitations .limitations-kind-container .limitations-last-section {
+  width: 365px;
 }
 
 * {
@@ -257,4 +400,13 @@ main .hero p {
 
 html {
   font-size: 62.5%;
+}
+html main {
+  margin: 0 auto;
+  width: 375px;
+}
+@media screen and (min-width: 768px) {
+  html main {
+    width: 768px;
+  }
 }/*# sourceMappingURL=styles.css.map */

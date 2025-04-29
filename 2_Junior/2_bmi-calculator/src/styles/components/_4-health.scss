@@ -6,7 +6,26 @@
     row-gap: 40px;
     width: 375px;
 
+    @media screen and (min-width: 768px) {
+        margin-top: 95.91px;
+        padding: 60px 41px;
+        width: 686px;
+    }
+
     section {
+
+        @media screen and (min-width: 768px) {
+            align-items: center;
+            column-gap: 40px;
+            display: flex;
+        }
+
+        img {
+
+            @media screen and (min-width: 768px) {
+                margin-top: 32px;
+            }
+        }
 
         .health-texts {
             margin-top: 32px;

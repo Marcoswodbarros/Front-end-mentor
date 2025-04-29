@@ -2,6 +2,11 @@
     margin: 82px auto 96px auto;
     width: 328px;
 
+    @media screen and (min-width: 768px) {
+        margin-top: 96.09px;
+        width: 686px;
+    }
+
     h2 {
         @include semiBoldPreset3;
         color: $color-blue-900;
@@ -9,10 +14,14 @@
         text-align: center;
     }
 
-    p {
+    .limitations-caption {
         @include regularPreset1;
         color: $color-gray-500;
         text-align: center;
+
+        @media screen and (min-width: 768px) {
+            width: 680px;
+        }
     }
 
     .limitations-kind-container {
@@ -21,8 +30,21 @@
         margin-top: 56px;
         row-gap: 16px;
 
+        @media screen and (min-width: 768px) {
+            column-gap: 16px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 24px;
+        }
+
         section {
             padding: 24px;
+
+            @media screen and (min-width: 768px) {
+                padding: 32px;
+                width: 335px;
+            }
 
             div {
                 align-items: center;
@@ -37,9 +59,13 @@
             }
 
             p {
-                text-align: left;
+                @include regularPreset1;
+                color: $color-gray-500;
             }
+        }
 
+        .limitations-last-section {
+            width: 365px;
         }
     }
 }
