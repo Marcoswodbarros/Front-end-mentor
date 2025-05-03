@@ -8,18 +8,41 @@ main .bmi-logo {
     margin: 32px auto 40px auto;
   }
 }
-main .hero {
+@media screen and (min-width: 1440px) {
+  main .bmi-logo {
+    height: 64px;
+    margin: 88px auto 24px 140px;
+    width: 64px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .sections-link {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1160px;
+  }
+}
+main .sections-link .hero {
   margin: 0 auto 32px auto;
   text-align: center;
   width: 328px;
 }
 @media screen and (min-width: 768px) {
-  main .hero {
+  main .sections-link .hero {
     margin: 0 auto 40px auto;
     width: 686px;
   }
 }
-main .hero h1 {
+@media screen and (min-width: 1440px) {
+  main .sections-link .hero {
+    margin: 42px auto;
+    text-align: left;
+    width: 564px;
+  }
+}
+main .sections-link .hero h1 {
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -29,18 +52,34 @@ main .hero h1 {
   margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
-  main .hero h1 {
+  main .sections-link .hero h1 {
     margin: 0 auto 24px auto;
     width: 369px;
   }
 }
-main .hero p {
+@media screen and (min-width: 1140px) {
+  main .sections-link .hero h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+    margin: 0 0 32px 0;
+    width: 471px;
+  }
+}
+main .sections-link .hero p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 150%;
   color: #5E6E85;
+}
+@media screen and (min-width: 1140px) {
+  main .sections-link .hero p {
+    width: 465px;
+  }
 }
 
 .form {
@@ -54,6 +93,13 @@ main .hero p {
   .form {
     padding-top: 32px;
     width: 686px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form {
+    margin: 0;
+    padding: 32px;
+    width: 564px;
   }
 }
 .form h2 {
@@ -94,6 +140,12 @@ main .hero p {
   .form form .form-check .unit-container {
     margin-bottom: 32px;
     width: 299px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form form .form-check .unit-container {
+    margin-bottom: 32px;
+    width: 238px;
   }
 }
 .form form .form-check .unit-container input[type=radio] {
@@ -149,6 +201,12 @@ main .hero p {
 @media screen and (min-width: 768px) {
   .form form .form-numbers .numbers-container input {
     width: 299px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form form .form-numbers .numbers-container input {
+    height: 61px;
+    width: 238px;
   }
 }
 .form form .form-numbers .numbers-container span {
@@ -214,17 +272,40 @@ main .hero p {
     width: 686px;
   }
 }
-.bmi-meaning img {
+@media screen and (min-width: 1440px) {
+  .bmi-meaning {
+    height: 671px;
+    margin-top: 120px;
+    width: 1160px;
+  }
+}
+.bmi-meaning .curved-line {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .bmi-meaning .curved-line {
+    display: block;
+    position: absolute;
+  }
+}
+.bmi-meaning .man-img {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .bmi-meaning img {
+  .bmi-meaning .man-img {
     height: 411px;
     left: -12rem;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     width: 435px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bmi-meaning .man-img {
+    height: 533px;
+    left: 0;
+    width: 564px;
   }
 }
 .bmi-meaning .bmi-meaning-text {
@@ -239,6 +320,13 @@ main .hero p {
     width: 331px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .bmi-meaning .bmi-meaning-text {
+    bottom: 120px;
+    height: 306px;
+    width: 465px;
+  }
+}
 .bmi-meaning .bmi-meaning-text h2 {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -247,6 +335,15 @@ main .hero p {
   line-height: 110%;
   color: #253347;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 1440px) {
+  .bmi-meaning .bmi-meaning-text h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+  }
 }
 .bmi-meaning .bmi-meaning-text p {
   font-family: "Inter", sans-serif;
@@ -272,12 +369,28 @@ main .hero p {
     width: 686px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .health {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 48px 0;
+    width: 1160px;
+  }
+}
 @media screen and (min-width: 768px) {
   .health section {
     align-items: center;
     -moz-column-gap: 40px;
          column-gap: 40px;
     display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .health section {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 365px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -316,7 +429,24 @@ main .hero p {
     width: 686px;
   }
 }
-.limitations h2 {
+@media screen and (min-width: 1440px) {
+  .limitations {
+    margin: 115px auto 0 auto;
+    min-height: 800px;
+    position: relative;
+    width: 1160px;
+  }
+}
+.limitations .limitations-intro {
+  text-align: center;
+}
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-intro {
+    text-align: left;
+    width: 564px;
+  }
+}
+.limitations .limitations-intro h2 {
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -324,20 +454,32 @@ main .hero p {
   line-height: 110%;
   color: #253347;
   margin-bottom: 32px;
-  text-align: center;
 }
-.limitations .limitations-caption {
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-intro h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    line-height: 110%;
+  }
+}
+.limitations .limitations-intro .limitations-caption {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 150%;
   color: #5E6E85;
-  text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .limitations .limitations-caption {
+  .limitations .limitations-intro .limitations-caption {
     width: 680px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-intro .limitations-caption {
+    width: 559px;
   }
 }
 .limitations .limitations-kind-container {
@@ -356,6 +498,32 @@ main .hero p {
     row-gap: 24px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-kind-container {
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    row-gap: 32px;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-kind-container .first-element {
+    margin-left: 58rem;
+  }
+}
+.limitations .limitations-kind-container .curved-line {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-kind-container .curved-line {
+    display: block;
+    margin-left: 15rem;
+    margin-right: 107px;
+  }
+}
 .limitations .limitations-kind-container section {
   padding: 24px;
 }
@@ -363,6 +531,11 @@ main .hero p {
   .limitations .limitations-kind-container section {
     padding: 32px;
     width: 335px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .limitations .limitations-kind-container section {
+    width: 365px;
   }
 }
 .limitations .limitations-kind-container section div {
@@ -408,5 +581,10 @@ html main {
 @media screen and (min-width: 768px) {
   html main {
     width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html main {
+    width: 1440px;
   }
 }/*# sourceMappingURL=styles.css.map */

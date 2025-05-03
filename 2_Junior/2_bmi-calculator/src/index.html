@@ -20,56 +20,58 @@
     <main>
         <img src="assets/images/logo.svg" class="bmi-logo" alt="BMI Logo">
 
-        <section class="hero">
-            <h1>Body Mass Index Calculator</h1>
+        <div class="sections-link">
+            <section class="hero">
+                <h1>Body Mass Index Calculator</h1>
 
-            <p>Better understand your weight in relation to your height using our
-                body mass index (BM) calculator. While BMI is not the sole determinant
-                of a healthy weight, it offers a valuable starting point to evaluate
-                your overall health and well-being.</p>
-        </section>
-
-
-        <section class="form">
-            <h2>Enter your details below</h2>
-
-            <form>
-                <fieldset class="form-check">
-                    <div class="unit-container">
-                        <input type="radio" name="unit" id="metric" value="metric" checked>
-                        <label for="metric">Metric</label>
-                    </div>
-
-                    <div class="unit-container">
-                        <input type="radio" name="unit" id="imperial" value="imperial">
-                        <label for="imperial">Imperial</label>
-                    </div>
-                </fieldset>
-
-                <fieldset class="form-numbers">
-                    <div class="numbers-container">
-                        <label for="height">Height</label>
-                        <input type="number" name="height" id="height" placeholder="0">
-                        <span>cm</span>
-                    </div>
-
-                    <div class="numbers-container">
-                        <label for="weight">Weight</label>
-                        <input type="number" name="weight" id="weight" placeholder="0">
-                        <span>kg</span>
-                    </div>
-                </fieldset>
-            </form>
-
-            <section class="results">
-                <h3>Welcome!</h3>
-                <p>Enter your height and weight and you’ll see your BMI result here</p>
+                <p>Better understand your weight in relation to your height using our
+                    body mass index (BM) calculator. While BMI is not the sole determinant
+                    of a healthy weight, it offers a valuable starting point to evaluate
+                    your overall health and well-being.</p>
             </section>
-        </section>
 
+
+            <section class="form">
+                <h2>Enter your details below</h2>
+
+                <form>
+                    <fieldset class="form-check">
+                        <div class="unit-container">
+                            <input type="radio" name="unit" id="metric" value="metric" checked>
+                            <label for="metric">Metric</label>
+                        </div>
+
+                        <div class="unit-container">
+                            <input type="radio" name="unit" id="imperial" value="imperial">
+                            <label for="imperial">Imperial</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form-numbers">
+                        <div class="numbers-container">
+                            <label for="height">Height</label>
+                            <input type="number" name="height" id="height" placeholder="0">
+                            <span>cm</span>
+                        </div>
+
+                        <div class="numbers-container">
+                            <label for="weight">Weight</label>
+                            <input type="number" name="weight" id="weight" placeholder="0">
+                            <span>kg</span>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <section class="results">
+                    <h3>Welcome!</h3>
+                    <p>Enter your height and weight and you’ll see your BMI result here</p>
+                </section>
+            </section>
+        </div>
 
         <section class="bmi-meaning">
-            <img src="assets/images/image-man-eating.webp" alt="A man eating">
+            <img src="assets/images/pattern-curved-line-left.svg" class="curved-line" alt="Curved line">
+            <img src="assets/images/image-man-eating.webp" class="man-img" alt="A man eating">
 
             <div class="bmi-meaning-text">
                 <h2>What your BMI result means</h2>
@@ -117,13 +119,16 @@
 
 
         <section class="limitations">
-            <h2>Limitations of BMI</h2>
-            <p class="limitations-caption">Although BMI is often a practical indicator of healthy weight, it is not suited for
-                every person. Specific groups should carefully consider their BMI outcomes, and in
-                certain cases, the measurement may not be beneficial to use.</p>
+            <div class="limitations-intro">
+                <h2>Limitations of BMI</h2>
+                <p class="limitations-caption">Although BMI is often a practical indicator of healthy weight, it is not
+                    suited for
+                    every person. Specific groups should carefully consider their BMI outcomes, and in
+                    certain cases, the measurement may not be beneficial to use.</p>
+            </div>
 
             <section class="limitations-kind-container">
-                <section>
+                <section class="first-element">
                     <div>
                         <img src="assets/images/icon-gender.svg" alt="Gender logo">
                         <h3>Gender</h3>
@@ -131,8 +136,9 @@
 
                     <p>The development and body fat composition of girls and boys vary with age. Consequently,
                         a child's age and gender are considered when evaluating their BMI.</p>
-
                 </section>
+
+                <img src="assets/images/pattern-curved-line-right.svg" class="curved-line" alt="Curved line">
 
                 <section>
                     <div>
@@ -142,7 +148,6 @@
 
                     <p>In aging individuals, increased body fat and muscle loss may cause BMI to underestimate
                         body fat content.</p>
-
                 </section>
 
                 <section>

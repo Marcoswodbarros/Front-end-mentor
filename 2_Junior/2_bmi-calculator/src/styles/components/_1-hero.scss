@@ -8,32 +8,64 @@ main {
         @media screen and (min-width: 768px) {
             margin: 32px auto 40px auto;
         }
+
+        @media screen and (min-width: 1440px) {
+            height: 64px;
+            margin: 88px auto 24px 140px;
+            width: 64px;
+        }
     }
 
-    .hero {
-        margin: 0 auto 32px auto;
-        text-align: center;
-        width: 328px;
-
-        @media screen and (min-width: 768px) {
-            margin: 0 auto 40px auto;
-            width: 686px;
+    .sections-link {
+        @media screen and (min-width: 1440px) {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 1160px;
         }
 
-        h1 {
-            @include semiBoldPreset2;
-            color: $color-blue-900;
-            margin-bottom: 24px;
+        .hero {
+            margin: 0 auto 32px auto;
+            text-align: center;
+            width: 328px;
 
             @media screen and (min-width: 768px) {
-                margin: 0 auto 24px auto;
-                width: 369px;
+                margin: 0 auto 40px auto;
+                width: 686px;
             }
-        }
 
-        p {
-            @include regularPreset1;
-            color: $color-gray-500;
+            @media screen and (min-width: 1440px) {
+                margin: 42px auto;
+                text-align: left;
+                width: 564px;
+            }
+
+            h1 {
+                @include semiBoldPreset2;
+                color: $color-blue-900;
+                margin-bottom: 24px;
+
+                @media screen and (min-width: 768px) {
+                    margin: 0 auto 24px auto;
+                    width: 369px;
+                }
+
+                @media screen and (min-width: 1140px) {
+                    @include semiBoldPreset1;
+                    margin: 0 0 32px 0;
+                    width: 471px;
+                }
+            }
+
+            p {
+                @include regularPreset1;
+                color: $color-gray-500;
+
+                @media screen and (min-width: 1140px) {
+                    width: 465px;
+                }
+            }
         }
     }
 }

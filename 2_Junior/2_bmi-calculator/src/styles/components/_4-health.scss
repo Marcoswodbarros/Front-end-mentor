@@ -12,12 +12,26 @@
         width: 686px;
     }
 
+    @media screen and (min-width: 1440px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding: 48px 0;
+        width: 1160px;
+    }
+
     section {
 
         @media screen and (min-width: 768px) {
             align-items: center;
             column-gap: 40px;
             display: flex;
+        }
+
+        @media screen and (min-width: 1440px) {
+            align-items: flex-start;
+            flex-direction: column;
+            width: 365px;
         }
 
         img {

@@ -10,6 +10,12 @@
         width: 686px;
     }
 
+    @media screen and (min-width: 1440px) {
+        margin: 0;
+        padding: 32px;
+        width: 564px;
+    }
+
     h2 {
         @include semiBoldPreset4;
         margin-bottom: 24px;
@@ -41,6 +47,11 @@
                 @media screen and (min-width: 768px) {
                     margin-bottom: 32px;
                     width: 299px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    margin-bottom: 32px;
+                    width: 238px;
                 }
 
                 input[type="radio"] {
@@ -87,6 +98,11 @@
 
                     @media screen and (min-width: 768px) {
                         width: 299px;
+                    }
+
+                    @media screen and (min-width: 1440px) {
+                        height: 61px;
+                        width: 238px;
                     }
                 }
 
