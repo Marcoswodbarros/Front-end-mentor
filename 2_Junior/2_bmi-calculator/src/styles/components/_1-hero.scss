@@ -1,5 +1,21 @@
 main {
 
+    .bg-style {
+        background: linear-gradient(90deg, #FFF 0%, rgb(214, 252, 254) 90%, rgb(214, 230, 254) 100%);
+        border-bottom-right-radius: 40px;
+        height: 640px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+
+        @media screen and (min-width: 1440px) {
+            height: 737px;
+            width: 1002px;
+        }
+    }
+
     .bmi-logo {
         margin: 32px auto;
         height: 40px;
@@ -17,6 +33,7 @@ main {
     }
 
     .sections-link {
+
         @media screen and (min-width: 1440px) {
             align-items: center;
             display: flex;

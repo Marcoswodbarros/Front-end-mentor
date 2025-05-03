@@ -1,3 +1,19 @@
+main .bg-style {
+  background: linear-gradient(90deg, #FFF 0%, rgb(214, 252, 254) 90%, rgb(214, 230, 254) 100%);
+  border-bottom-right-radius: 40px;
+  height: 640px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (min-width: 1440px) {
+  main .bg-style {
+    height: 737px;
+    width: 1002px;
+  }
+}
 main .bmi-logo {
   margin: 32px auto;
   height: 40px;
@@ -83,8 +99,10 @@ main .sections-link .hero p {
 }
 
 .form {
+  background-color: #FFFFFF;
   border-radius: 16px;
   color: #253347;
+  filter: drop-shadow(16px 32px 56px rgba(143, 174, 207, 0.2));
   margin: 0 auto;
   padding: 24px;
   width: 328px;

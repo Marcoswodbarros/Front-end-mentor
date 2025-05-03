@@ -1,6 +1,8 @@
 .form {
+    background-color: $color-white;
     border-radius: 16px;
     color: $color-blue-900;
+    filter: drop-shadow(16px 32px 56px rgba(143, 174, 207, 0.2));
     margin: 0 auto;
     padding: 24px;
     width: 328px;
